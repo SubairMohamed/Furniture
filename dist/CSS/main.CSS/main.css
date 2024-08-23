@@ -11,10 +11,6 @@ body {
   background: #0C0C0C;
 }
 
-#navbar {
-  background: #603F26;
-  opacity: 0.6;
-}
 #navbar nav {
   padding: 2.5rem 0.5rem;
   box-shadow: 3px 2px 6px 1px gray;
