@@ -13,6 +13,7 @@ body {
 
 #navbar {
   background: #603F26;
+  opacity: 0.6;
 }
 #navbar nav {
   padding: 2.5rem 0.5rem;
