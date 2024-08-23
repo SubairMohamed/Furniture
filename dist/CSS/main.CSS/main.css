@@ -17,6 +17,12 @@ body {
 #navbar nav {
   padding: 1rem 0.5rem;
 }
+#navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
 #navbar nav ul li {
   list-style: none;
 }
