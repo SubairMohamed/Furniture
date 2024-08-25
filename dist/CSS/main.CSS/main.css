@@ -20,6 +20,14 @@ body {
   animation: animate 30s ease-in-out infinite;
 }
 
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  font-size: 2rem;
+  color: #0C0C0C;
+}
+
 .outer {
   position: absolute;
   top: 50%;
