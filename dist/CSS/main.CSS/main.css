@@ -38,28 +38,6 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-.outer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: rgba(0, 0, 0, 0.5);
-}
-
-.detail {
-  color: white;
-}
-
-.detail h1 {
-  text-transform: capitalize;
-}
-
-.detail span {
-  text-transform: capitalize;
-  display: block;
-  text-align: center;
-}
-
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-5.jpg");
