@@ -32,7 +32,10 @@ nav {
 
             a {
               font-size: 2rem;
+              font-weight: bold;
               color: $Nav;
+              text-decoration: none;
+              text-transform: uppercase;
             }
         }
     }

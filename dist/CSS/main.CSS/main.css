@@ -25,7 +25,10 @@ nav ul li {
 }
 nav ul li a {
   font-size: 2rem;
+  font-weight: bold;
   color: #0C0C0C;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .outer {
