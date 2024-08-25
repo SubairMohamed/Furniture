@@ -18,6 +18,7 @@ body {
   top: 0;
   left: 0;
   animation: animate 16s ease-in-out infinite;
+  opacity: rgba(0, 0, 0, 0.5);
 }
 
 .outer {
@@ -44,14 +45,14 @@ body {
 
 @keyframes animate {
   0%, 100% {
-    background-image: url("../img/furniture-2.jpg");
+    background-image: url("/");
     background-size: cover;
     height: 70vh;
   }
   50% {
-    background-image: url("../img/furniture-3.jpg");
+    background-image: url("/furniture-3.jpg");
   }
   75% {
-    background-image: url("../img/furniture-4.jpg");
+    background-image: url("/furniture-4.jpg");
   }
 }/*# sourceMappingURL=main.css.map */
