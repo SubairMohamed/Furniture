@@ -57,6 +57,14 @@ nav {
     }
 }
 
+.content-header {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .title-header {
     font: {
         size: 2rem;
@@ -66,7 +74,7 @@ nav {
 
 .para-header {
     font: {
-        size: 1.6rem;
+        size: 1.8rem;
         weight: bold;
     }
     color: white;
