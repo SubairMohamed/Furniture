@@ -52,6 +52,13 @@ nav ul li a {
   color: white;
 }
 
+.para-header {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+  width: 650px;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-5.jpg");
