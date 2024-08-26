@@ -90,7 +90,13 @@ nav {
     color: white;
     background-color: $Nav;
     padding: .3rem .4rem;
+    border-radius: 10px;
     border: 2px solid $Nav;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #FFAF00;
 }
 
 @keyframes animate {
