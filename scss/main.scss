@@ -81,6 +81,18 @@ nav {
     width: 650px;
 }
 
+.btn {
+    font: {
+        size: 2rem;
+        weight: bold;
+    }
+    text-transform: capitalize;
+    color: white;
+    background-color: $Nav;
+    padding: .3rem .4rem;
+    border: 2px solid $Nav;
+}
+
 @keyframes animate {
     0%, 100% {
         background-image: url("/scss/img/furniture-5.jpg");

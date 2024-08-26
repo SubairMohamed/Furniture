@@ -67,6 +67,16 @@ nav ul li a {
   width: 650px;
 }
 
+.btn {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  background-color: #FFAF00;
+  padding: 0.3rem 0.4rem;
+  border: 2px solid #FFAF00;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-5.jpg");
