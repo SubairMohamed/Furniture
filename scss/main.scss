@@ -94,7 +94,8 @@ nav {
     border: 2px solid $Nav;
 }
 
-.btn:hover {
+$btnHover: selector-nest(".btn", "&:hover");
+#{$btnHover} {
     background-color: white;
     color: #FFAF00;
 }
