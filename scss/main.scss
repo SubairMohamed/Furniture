@@ -11,7 +11,7 @@ body {
     background: #0C0C0C;
 }
 
-$Nav: white;
+$Nav: #FFAF00;
 $opc: black;
 
 header {
@@ -46,6 +46,8 @@ nav {
             
             a {
               font-size: 2.3rem;
+              font-family: "New Amsterdam", sans-serif;
+              letter-spacing: 3px;
               font-weight: bold;
               color: $Nav;
               text-decoration: none;
