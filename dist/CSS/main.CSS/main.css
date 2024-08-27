@@ -39,10 +39,10 @@ nav ul li {
 }
 nav ul li a {
   font-size: 2.3rem;
-  font-family: "New Amsterdam", sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 3px;
   font-weight: bold;
-  color: #FFAF00;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
