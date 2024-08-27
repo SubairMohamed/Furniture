@@ -84,6 +84,10 @@ nav ul li a {
   color: #FFAF00;
 }
 
+main, .title-main {
+  color: white;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
