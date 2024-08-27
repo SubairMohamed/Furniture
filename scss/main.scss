@@ -118,6 +118,10 @@ $nest: selector-nest("main", "span");
     font-size: 1.5rem;
 }
 
+$append: selector-append("img", ".img");
+#{$append}{
+    max-width: 400px;
+}
 
 
 @keyframes animate {
