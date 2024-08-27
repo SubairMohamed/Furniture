@@ -111,8 +111,14 @@ $simple: simple-selectors("main.title-main");
     color: white;
     font-size: 3rem;
     text-align: center;
-    padding: 1rem 0;
 }
+
+$nest: selector-nest("main", "span");
+#{$nest}{
+    font-size: 1.5rem;
+}
+
+
 
 @keyframes animate {
     0%, 100% {
