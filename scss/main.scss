@@ -109,6 +109,9 @@ $btnHover: selector-nest(".btn", "&:hover");
 $simple: simple-selectors("main.title-main");
 #{$simple}{
     color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem 0;
 }
 
 @keyframes animate {

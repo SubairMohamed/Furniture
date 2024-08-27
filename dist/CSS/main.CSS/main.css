@@ -86,6 +86,9 @@ nav ul li a {
 
 main, .title-main {
   color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 @keyframes animate {
