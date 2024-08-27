@@ -74,6 +74,7 @@ nav ul li a {
   color: white;
   background-color: #FFAF00;
   padding: 0.3rem 0.4rem;
+  margin-top: 0.5rem;
   border-radius: 10px;
   border: 2px solid #FFAF00;
 }
