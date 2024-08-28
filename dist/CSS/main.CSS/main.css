@@ -98,6 +98,18 @@ nav ul li a {
   text-align: center;
 }
 
+.card {
+  padding: 1rem;
+}
+
+.img {
+  width: 400px;
+}
+
+.card-header {
+  color: white;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
