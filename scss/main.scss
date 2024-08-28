@@ -123,6 +123,20 @@ $btnHover: selector-nest(".btn", "&:hover");
 //     max-width: 400px;
 // }
 
+.sub-title {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 1rem 0 0 0;
+}
+
+.title-main {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
 
 
 @keyframes animate {
