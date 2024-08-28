@@ -140,9 +140,13 @@ $btnHover: selector-nest(".btn", "&:hover");
 .card {
   margin: 1rem;
   padding: 1rem;
-  background-color: #FFAF00;
   max-width: 420px;
   border-radius: 10px;
+  transition: all .4s ease-in-out;
+}
+
+.card:hover {
+    background-color: #FFAF00;
 }
 
 .img {
