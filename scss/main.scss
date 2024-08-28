@@ -138,14 +138,18 @@ $btnHover: selector-nest(".btn", "&:hover");
 }
 
 .card {
-    margin: 1rem;
+  margin: 1rem;
   padding: 1rem;
   background-color: #FFAF00;
   max-width: 420px;
+  border-radius: 10px;
 }
 
 .img {
     width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 .card-header {
