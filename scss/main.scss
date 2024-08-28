@@ -138,7 +138,10 @@ $btnHover: selector-nest(".btn", "&:hover");
 }
 
 .card {
-  padding:1rem;
+    margin: 1rem;
+  padding: 1rem;
+  background-color: #FFAF00;
+  max-width: 420px;
 }
 
 .img {
@@ -147,6 +150,13 @@ $btnHover: selector-nest(".btn", "&:hover");
 
 .card-header {
     color:  white;
+}
+
+.description {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
 }
 
 
