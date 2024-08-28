@@ -129,6 +129,16 @@ nav ul li a {
   font-size: 2rem;
   text-transform: capitalize;
   text-align: center;
+  padding: 0 0 0.5rem 0;
+}
+
+.rate {
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  background-color: #0C0C0C;
+  border-radius: 50px;
+  padding: 0.5rem 0.2rem;
 }
 
 @keyframes animate {
