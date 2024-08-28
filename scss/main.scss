@@ -146,7 +146,15 @@ $btnHover: selector-nest(".btn", "&:hover");
 }
 
 .card:hover {
-    background-color: #FFAF00;
+    background-color: white;
+}
+
+.card:hover .description {
+    color: black;
+}
+
+.card:hover .title-card {
+    color: black;
 }
 
 .img {
