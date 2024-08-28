@@ -161,6 +161,13 @@ $btnHover: selector-nest(".btn", "&:hover");
     text-transform: capitalize;
     text-align: center;
     display: block;
+    padding: .5rem 0 0 0;
+}
+
+.title-card {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 
