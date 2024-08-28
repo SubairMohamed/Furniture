@@ -84,20 +84,6 @@ nav ul li a {
   color: #FFAF00;
 }
 
-main, .title-main {
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-}
-
-main span {
-  font-size: 1.5rem;
-}
-
-img.img {
-  max-width: 400px;
-}
-
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
