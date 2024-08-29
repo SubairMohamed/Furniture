@@ -137,6 +137,13 @@ $btnHover: selector-nest(".btn", "&:hover");
     text-align: center;
 }
 
+.wrap-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
   margin: 6rem 1rem 1rem 1rem;
   padding: 1rem;
