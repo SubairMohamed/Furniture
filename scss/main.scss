@@ -200,6 +200,17 @@ $btnHover: selector-nest(".btn", "&:hover");
     padding: 0.5rem .2rem;
 }
 
+// owner
+// =====
+
+.title-main-owner {
+    font-size: 3rem;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 4rem 0 0 0;
+}
+
 
 
 @keyframes animate {

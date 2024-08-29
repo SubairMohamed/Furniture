@@ -161,6 +161,14 @@ nav ul li a {
   padding: 0.5rem 0.2rem;
 }
 
+.title-main-owner {
+  font-size: 3rem;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 4rem 0 0 0;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
