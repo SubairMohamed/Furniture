@@ -111,14 +111,6 @@ nav ul li a {
   background-color: white;
 }
 
-.card:hover .description {
-  color: black;
-}
-
-.card:hover .title-card {
-  color: black;
-}
-
 .img {
   width: 400px;
   display: block;
@@ -138,11 +130,19 @@ nav ul li a {
   padding: 0.5rem 0 0 0;
 }
 
+.card:hover .description {
+  color: black;
+}
+
 .title-card {
   font-size: 2rem;
   text-transform: capitalize;
   text-align: center;
   padding: 0 0 0.5rem 0;
+}
+
+.card:hover .title-card {
+  color: black;
 }
 
 .rate {
