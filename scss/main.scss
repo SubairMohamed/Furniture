@@ -211,6 +211,12 @@ $btnHover: selector-nest(".btn", "&:hover");
     margin: 4rem 0 0 0;
 }
 
+.para-main-owner {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
 
 
 @keyframes animate {
