@@ -170,7 +170,7 @@ $btnHover: selector-nest(".btn", "&:hover");
 }
 
 .card:hover .description {
-    color: black;
+    color: $Nav;
 }
 
 .title-card {
@@ -181,7 +181,7 @@ $btnHover: selector-nest(".btn", "&:hover");
 }
 
 .card:hover .title-card {
-    color: black;
+    color: $Nav;
 }
 
 .rate {

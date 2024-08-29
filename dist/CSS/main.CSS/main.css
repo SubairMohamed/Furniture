@@ -131,7 +131,7 @@ nav ul li a {
 }
 
 .card:hover .description {
-  color: black;
+  color: #FFAF00;
 }
 
 .title-card {
@@ -142,7 +142,7 @@ nav ul li a {
 }
 
 .card:hover .title-card {
-  color: black;
+  color: #FFAF00;
 }
 
 .rate {
