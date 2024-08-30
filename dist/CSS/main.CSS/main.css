@@ -240,6 +240,14 @@ i {
   text-align: center;
 }
 
+.para-wood {
+  font-size: 2.3rem;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
