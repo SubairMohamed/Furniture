@@ -219,6 +219,7 @@ $btnHover: selector-nest(".btn", "&:hover");
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .img-owner {
@@ -244,9 +245,11 @@ $btnHover: selector-nest(".btn", "&:hover");
 }
 
 i {
-    font-size: 1rem;
-    color: white;
+    font-size: 1.5rem;
+    color: #FFAF00;
 }
+
+
 
 @keyframes animate {
     0%, 100% {
