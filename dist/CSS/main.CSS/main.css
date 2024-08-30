@@ -172,6 +172,13 @@ nav ul li a {
   text-align: center;
 }
 
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
 .content {
   display: flex;
   flex-direction: column;
