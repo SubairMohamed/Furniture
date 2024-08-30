@@ -223,8 +223,8 @@ i {
 
 .wood {
   width: 100%;
-  height: 70vh;
-  background-color: #FFAF00;
+  height: 95vh;
+  background-image: url("/scss/img/wood.jpg");
   margin: 10rem 0 0 0;
 }
 
