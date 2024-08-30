@@ -172,6 +172,13 @@ nav ul li a {
   text-align: center;
 }
 
+.img-owner {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
