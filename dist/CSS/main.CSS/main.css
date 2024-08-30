@@ -221,6 +221,13 @@ i {
   padding: 0 0.5rem;
 }
 
+.wood {
+  width: 100%;
+  height: 70vh;
+  background-color: #FFAF00;
+  margin: 10rem 0 0 0;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
