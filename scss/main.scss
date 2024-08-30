@@ -137,6 +137,8 @@ $btnHover: selector-nest(".btn", "&:hover");
     text-align: center;
 }
 
+// Start Cards
+
 .wrap-cards {
     display: flex;
     flex-direction: row;
@@ -200,8 +202,11 @@ $btnHover: selector-nest(".btn", "&:hover");
     padding: 0.5rem .2rem;
 }
 
-// owner
-// =====
+// Ends Cards
+// =========
+
+// Start owner
+// ==========
 
 .sub-title-owner {
   @extend .sub-title;
@@ -256,6 +261,9 @@ i {
     font-size: 1.5rem;
     color: #FFAF00;
 }
+
+// Ends Owners
+// ===========
 
 
 
