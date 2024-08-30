@@ -215,6 +215,12 @@ $btnHover: selector-nest(".btn", "&:hover");
     text-align: center;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .img-owner {
     height: 270px;
     width: 270px;
