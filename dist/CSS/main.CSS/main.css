@@ -177,7 +177,17 @@ nav ul li a {
   width: 270px;
   border-radius: 50%;
   display: inline-block;
-  margin: 2rem;
+  margin: 2rem 0 0 2rem;
+}
+
+.title-owner, .description-owner {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.name-owner {
+  font-size: 2rem;
+  color: white;
 }
 
 @keyframes animate {
