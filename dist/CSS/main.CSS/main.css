@@ -62,9 +62,11 @@ nav ul li a {
 
 .para-header {
   font-size: 2rem;
-  font-weight: bold;
-  color: white;
+  font-weight: bolder;
+  color: #FFC100;
   width: 650px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
 }
 
 .btn {

@@ -75,10 +75,12 @@ nav {
 .para-header {
     font: {
         size: 2rem;
-        weight: bold;
+        weight: bolder;
     }
-    color: white;
+    color: #FFC100;
     width: 650px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
 }
 
 .btn {
