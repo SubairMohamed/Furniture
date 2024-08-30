@@ -205,9 +205,14 @@ nav ul li a {
   color: white;
 }
 
+.description-owner {
+  padding: 0 0 1rem 0;
+}
+
 i {
   font-size: 1.5rem;
   color: #FFAF00;
+  padding: 0 0.5rem;
 }
 
 @keyframes animate {

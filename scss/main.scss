@@ -255,11 +255,13 @@ $btnHover: selector-nest(".btn", "&:hover");
 
 .description-owner {
    @extend .title-owner;
+   padding: 0 0 1rem 0;
 }
 
 i {
     font-size: 1.5rem;
     color: #FFAF00;
+    padding: 0 .5rem;
 }
 
 // Ends Owners
