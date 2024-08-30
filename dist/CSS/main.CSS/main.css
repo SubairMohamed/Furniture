@@ -234,6 +234,12 @@ i {
   text-align: center;
 }
 
+.title-wood {
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
