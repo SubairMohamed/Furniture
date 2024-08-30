@@ -173,10 +173,11 @@ nav ul li a {
 }
 
 .img-owner {
-  height: 250px;
-  width: 250px;
+  height: 270px;
+  width: 270px;
   border-radius: 50%;
   display: inline-block;
+  margin: 2rem;
 }
 
 @keyframes animate {
