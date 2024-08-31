@@ -346,6 +346,27 @@ hr {
     @extend .sub-title-blog;
 }
 
+// Ends Blog
+// =========
+
+// Start Footer
+// ============
+
+.title-footer {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.para-footer {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer-icon {
+    font-size: 2rem;
+}
+
 
 @keyframes animate {
     0%, 100% {
