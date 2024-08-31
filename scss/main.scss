@@ -316,6 +316,22 @@ $social-icons: selector-unify("i", ".fa-brands");
     margin: 0 auto;
     width: 50%;
 }
+// Ends Wood
+// ==========
+
+// Start Blog
+// ==========
+
+.sub-title-blog {
+    @extend .sub-title;
+    font-family: "Poppins", sans-serif;
+}
+
+.title-blog {
+    @extend .title-main;
+    font-family: "Poppins", sans-serif;
+}
+
 
 @keyframes animate {
     0%, 100% {

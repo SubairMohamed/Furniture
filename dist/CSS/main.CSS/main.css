@@ -86,7 +86,7 @@ nav ul li a {
   color: #FFAF00;
 }
 
-.sub-title, span.sub-title-owner {
+.sub-title, .sub-title-blog, span.sub-title-owner {
   font-size: 1.5rem;
   color: white;
   text-align: center;
@@ -95,7 +95,7 @@ nav ul li a {
   margin: 6rem 0 0 0;
 }
 
-.title-main {
+.title-main, .title-blog {
   font-size: 3rem;
   color: white;
   text-align: center;
@@ -267,6 +267,14 @@ i.fa-brands {
   text-align: center;
   margin: 0 auto;
   width: 50%;
+}
+
+.sub-title-blog {
+  font-family: "Poppins", sans-serif;
+}
+
+.title-blog {
+  font-family: "Poppins", sans-serif;
 }
 
 @keyframes animate {
