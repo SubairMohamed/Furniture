@@ -188,7 +188,7 @@ nav ul li a {
   margin-bottom: 1rem;
 }
 
-.img-owner {
+.wrap .content .img-owner {
   height: 270px;
   width: 270px;
   border-radius: 50%;
@@ -197,7 +197,7 @@ nav ul li a {
   margin: 2rem 0 0 2rem;
 }
 
-.img-owner:hover {
+.wrap .content .img-owner:hover {
   opacity: 0.5;
 }
 
