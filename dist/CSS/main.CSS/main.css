@@ -287,6 +287,14 @@ hr {
   border: 3px solid #FFAF00;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #1E201E;
+}
+
 .title-footer {
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
