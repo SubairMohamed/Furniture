@@ -222,19 +222,37 @@ $btnHover: selector-nest(".btn", "&:hover");
     text-align: center;
 }
 
-.wrap {
+$wrap: selector-nest(".wrap");
+#{$wrap} {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
 }
 
-.content {
+$wrap-content: selector-nest(".wrap", ".content");
+#{$wrap-content} {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
 }
+
+
+
+// .wrap {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     gap: 30px;
+// }
+
+// .content {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin-bottom: 1rem;
+// }
 
 .img-owner {
     height: 270px;
