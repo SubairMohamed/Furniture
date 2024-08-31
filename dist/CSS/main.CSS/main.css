@@ -201,12 +201,12 @@ nav ul li a {
   opacity: 0.5;
 }
 
-.title-owner, .description-owner {
+.wrap .content .title-owner, .wrap .content .description-owner {
   font-size: 1.5rem;
   color: white;
 }
 
-.name-owner {
+.wrap .content .name-owner {
   font-size: 2rem;
   color: white;
 }
