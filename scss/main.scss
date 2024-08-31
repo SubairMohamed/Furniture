@@ -367,6 +367,20 @@ hr {
     font-size: 2rem;
 }
 
+.nav-footer {
+    .list-footer {
+        list-style: none;
+
+        a {
+            font-size: 2rem;
+            font-family: "Poppins", sans-serif;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+
 
 @keyframes animate {
     0%, 100% {
