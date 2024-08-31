@@ -322,6 +322,10 @@ $social-icons: selector-unify("i", ".fa-brands");
 // Start Blog
 // ==========
 
+.blog {
+    margin: 8rem 0;
+}
+
 .sub-title-blog {
     @extend .sub-title;
     font-family: "Poppins", sans-serif;
@@ -335,6 +339,7 @@ $social-icons: selector-unify("i", ".fa-brands");
 hr {
     width: 4%;
     margin: 0 auto;
+    border: 3px solid #FFAF00;
 }
 
 

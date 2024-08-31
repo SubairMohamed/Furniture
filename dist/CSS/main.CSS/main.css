@@ -269,6 +269,10 @@ i.fa-brands {
   width: 50%;
 }
 
+.blog {
+  margin: 8rem 0;
+}
+
 .sub-title-blog {
   font-family: "Poppins", sans-serif;
 }
@@ -280,6 +284,7 @@ i.fa-brands {
 hr {
   width: 4%;
   margin: 0 auto;
+  border: 3px solid #FFAF00;
 }
 
 @keyframes animate {
