@@ -33,4 +33,9 @@
     font-size: 2rem;
     color: white;
 }
+
+.description-owner {
+   @extend .title-owner;
+   padding: 0 0 1rem 0;
+}
 */
