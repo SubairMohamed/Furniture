@@ -228,6 +228,14 @@ i {
   margin: 10rem 0 0 0;
 }
 
+.content-wood {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .sub-title-wood {
   font-size: 1.5rem;
   color: white;
