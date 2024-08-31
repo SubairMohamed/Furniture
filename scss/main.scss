@@ -265,9 +265,10 @@ $wrap-content-name-owner: selector-nest(".wrap", ".content", ".name-owner");
     color: white;
 }
 
-.description-owner {
-   @extend .title-owner;
-   padding: 0 0 1rem 0;
+$wrap-content-description-owner: selector-nest(".wrap", ".content", ".description-owner"); 
+#{$wrap-content-description-owner} {
+    @extend .title-owner;
+    padding: 0 0 1rem 0;
 }
 
 i {
