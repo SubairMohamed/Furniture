@@ -86,7 +86,7 @@ nav ul li a {
   color: #FFAF00;
 }
 
-.sub-title, .sub-title-owner {
+.sub-title, span.sub-title-owner {
   font-size: 1.5rem;
   color: white;
   text-align: center;
@@ -163,11 +163,11 @@ nav ul li a {
   padding: 0.5rem 0.2rem;
 }
 
-.sub-title-owner {
+span.sub-title-owner {
   margin: 4rem 0 0 0;
 }
 
-.title-main-owner {
+h1.title-main-owner {
   font-size: 3rem;
   color: white;
   text-transform: capitalize;

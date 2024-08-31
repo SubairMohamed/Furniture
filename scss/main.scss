@@ -210,12 +210,14 @@ $btnHover: selector-nest(".btn", "&:hover");
 // Start owner
 // ==========
 
-.sub-title-owner {
-  @extend .sub-title;
-  margin: 4rem 0 0 0;
+$Title-Sub: selector-unify("span", ".sub-title-owner");
+#{$Title-Sub} {
+    @extend .sub-title;
+    margin: 4rem 0 0 0;
 }
 
-.title-main-owner {
+$Title-Sub: selector-unify("h1", ".title-main-owner");
+#{$Title-Sub} {
     font-size: 3rem;
     color: white;
     text-transform: capitalize;
