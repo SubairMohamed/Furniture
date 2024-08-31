@@ -342,6 +342,10 @@ hr {
     border: 3px solid #FFAF00;
 }
 
+.sub-para-blog {
+    @extend .sub-title-blog;
+}
+
 
 @keyframes animate {
     0%, 100% {
