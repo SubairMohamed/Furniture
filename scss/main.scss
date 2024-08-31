@@ -280,31 +280,42 @@ i {
     width: 100%;
     height: 95vh;
     background-image: url("/scss/img/wood.jpg");
+    opacity: 0.9;
     margin: 10rem 0 0 0;
 }
 
 .content-wood {
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.bg-content-wood {
+    background: #FFAF00;
+    padding: 1rem;
+    opacity: 0.7;
+    width: 100%;
+}
+
 .sub-title-wood {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
     color: white;
     text-align: center;
 }
 
 .title-wood {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-weight: bolder;
     color: white;
     text-align: center;
 }
 
 .para-wood {
-    font-size: 2.3rem;
+    font-size: 2.6rem;
+    font-weight: bolder;
     color: white;
     text-align: center;
     margin: 0 auto;
