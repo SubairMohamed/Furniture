@@ -108,29 +108,13 @@ $btnHover: selector-nest(".btn", "&:hover");
 // Start Main
 // ==========
 
-// $simple: simple-selectors("main.title-main");
-// #{$simple}{
-//     color: white;
-//     font-size: 3rem;
-//     text-align: center;
-// }
-
-// $nest: selector-nest("main", "span");
-// #{$nest}{
-//     font-size: 1.5rem;
-// }
-
-// $append: selector-append(".img");
-// #{$append}{
-//     max-width: 400px;
-// }
-
 .sub-title {
     font-size: 1.5rem;
     color: white;
     text-align: center;
     display: block;
     padding: 1rem 0 0 0;
+    margin: 6rem 0 0 0;
 }
 
 .title-main {
