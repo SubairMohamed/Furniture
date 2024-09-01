@@ -374,6 +374,8 @@ hr {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   color: white;
+  line-height: 24px;
+  width: 25%;
 }
 
 .theme, .term-1:hover, .term-2:hover {
