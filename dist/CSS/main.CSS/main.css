@@ -304,6 +304,12 @@ hr {
   background-color: burlywood;
 }
 
+.div-title-footer {
+  background: #0C0C0C;
+  max-width: 14%;
+  line-height: 40px;
+}
+
 .title-footer {
   font-size: 3.5rem;
   font-family: "Poppins", sans-serif;
@@ -330,7 +336,7 @@ hr {
 }
 
 .nav-footer {
-  margin-left: 4rem;
+  margin-left: 2rem;
 }
 .nav-footer .list-footer {
   list-style: none;
