@@ -305,7 +305,6 @@ hr {
 }
 
 .div-title-footer {
-  background: #0C0C0C;
   max-width: 14%;
   line-height: 40px;
 }
@@ -318,6 +317,7 @@ hr {
 }
 
 .div-para {
+  display: flex;
   width: 30%;
   height: 30vh;
   border-left: 1px solid #FFAF00;
