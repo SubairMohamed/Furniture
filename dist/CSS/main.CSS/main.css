@@ -366,6 +366,12 @@ hr {
   background: #ffbf33;
 }
 
+.para-copy {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
