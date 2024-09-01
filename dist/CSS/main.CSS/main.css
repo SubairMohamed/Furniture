@@ -331,8 +331,8 @@ hr {
   margin: auto;
 }
 
-.footer-icon {
-  font-size: 2rem;
+.social-icons-footer .footer-icon {
+  font-size: 2.5rem;
 }
 
 .nav-footer {
