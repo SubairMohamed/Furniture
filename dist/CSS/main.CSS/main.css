@@ -364,6 +364,10 @@ hr {
   width: 100%;
   height: 21vh;
   background: #ffbf33;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .para-copy, .theme, .term-1:hover, .term-2:hover {
