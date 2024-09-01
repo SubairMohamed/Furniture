@@ -295,7 +295,9 @@ hr {
 .footer-container-content {
   max-width: 60%;
   height: 65vh;
-  background-color: #FFC100;
+  padding: 1rem 0.5rem;
+  margin: auto;
+  background-color: burlywood;
 }
 
 .div-title-footer {
