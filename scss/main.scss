@@ -434,9 +434,14 @@ hr {
 }
 
 .para-copy {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: "Poppins", sans-serif;
     color: white;
+}
+
+.theme {
+    @extend .para-copy;
+    text-decoration: none;
 }
 
 .term {

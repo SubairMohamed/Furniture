@@ -366,10 +366,14 @@ hr {
   background: #ffbf33;
 }
 
-.para-copy {
-  font-size: 1.5rem;
+.para-copy, .theme {
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
   color: white;
+}
+
+.theme {
+  text-decoration: none;
 }
 
 .term {
