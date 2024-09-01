@@ -301,7 +301,6 @@ hr {
   height: 65vh;
   padding: 1rem 0.5rem;
   margin: auto;
-  background-color: burlywood;
 }
 
 .div-title-footer {
@@ -333,6 +332,12 @@ hr {
 
 .social-icons-footer .footer-icon {
   font-size: 2.5rem;
+  color: white;
+  padding-left: 1rem;
+}
+
+.social-icons-footer .footer-icon:hover {
+  color: #FFAF00;
 }
 
 .nav-footer {
