@@ -311,11 +311,18 @@ hr {
   text-transform: uppercase;
 }
 
+.div-para {
+  width: 30%;
+  height: 30vh;
+  border-left: 1px solid #FFAF00;
+  border-right: 1px solid #FFAF00;
+}
+
 .para-footer {
   font-size: 1.8rem;
   color: white;
-  max-width: 28%;
-  margin: 0 auto;
+  padding: 0 2rem;
+  margin: auto;
 }
 
 .footer-icon {
