@@ -353,8 +353,14 @@ hr {
 // ============
 
 .footer-container {
-  height: 64vh;
+  height: 70vh;
   background: #1E201E
+}
+
+.footer-container-content {
+    max-width: 60%;
+    height: 65vh;
+    background-color: #FFC100;
 }
 
 .div-title-footer {
