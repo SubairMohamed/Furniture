@@ -345,6 +345,7 @@ hr {
 }
 .nav-footer .list-footer {
   list-style: none;
+  padding: 0 0 0.5rem 0;
 }
 .nav-footer .list-footer a {
   font-size: 2rem;
