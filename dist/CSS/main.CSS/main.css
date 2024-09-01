@@ -390,6 +390,10 @@ hr {
   color: #0C0C0C;
 }
 
+.img-footer {
+  width: 8%;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
