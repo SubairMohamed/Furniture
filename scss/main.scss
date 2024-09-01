@@ -458,6 +458,14 @@ hr {
     @extend .term-1
 }
 
+.theme:hover {
+    color: #0C0C0C;
+}
+
+.term-1:hover {
+    @extend .theme;
+}
+
 
 @keyframes animate {
     0%, 100% {
