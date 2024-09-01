@@ -312,7 +312,7 @@ hr {
 }
 
 .para-footer {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: white;
   max-width: 28%;
   margin: 0 auto;
@@ -322,6 +322,9 @@ hr {
   font-size: 2rem;
 }
 
+.nav-footer {
+  margin-left: 4rem;
+}
 .nav-footer .list-footer {
   list-style: none;
 }
