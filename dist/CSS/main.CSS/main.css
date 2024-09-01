@@ -390,6 +390,7 @@ hr {
 .term-1, .term-2 {
   color: white;
   text-decoration: none;
+  padding-right: 1.3rem;
 }
 
 .theme:hover, .term-1:hover, .term-2:hover {
