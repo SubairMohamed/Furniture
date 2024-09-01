@@ -439,6 +439,20 @@ hr {
     color: white;
 }
 
+.term {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.term-1 {
+    color: white;
+    text-decoration: none;
+}
+
+.term-2 {
+    @extend .term-1
+}
+
 
 @keyframes animate {
     0%, 100% {
