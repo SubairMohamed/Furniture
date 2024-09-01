@@ -355,6 +355,10 @@ hr {
   text-transform: uppercase;
 }
 
+.nav-footer .list-footer a:hover {
+  color: #FFAF00;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
