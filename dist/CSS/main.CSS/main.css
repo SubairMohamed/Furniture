@@ -101,7 +101,7 @@ nav ul li a {
   text-align: center;
 }
 
-.wrap-cards {
+div.wrap-cards {
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -124,12 +124,13 @@ $btnHover: selector-nest(".btn", "&:hover");
 }
 
 // Start Cards
-
-.wrap-cards {
+// ===========
+$wrapCard: selector-unify("div", ".wrap-cards");
+#{$wrapCard} {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .card {
