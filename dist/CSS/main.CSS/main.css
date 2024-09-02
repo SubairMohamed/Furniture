@@ -88,7 +88,7 @@ nav ul li a {
 
 span.sub-title, span.sub-title-blog, span.sub-para-blog, span.sub-title-owner {
   font-size: 1.5rem;
-  color: white;
+  color: #ffffff;
   text-align: center;
   display: block;
   padding: 1rem 0 0 0;
@@ -97,7 +97,7 @@ span.sub-title, span.sub-title-blog, span.sub-para-blog, span.sub-title-owner {
 
 h1.title-main, h1.title-blog {
   font-size: 3rem;
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -249,14 +249,14 @@ i.fa-brands {
 .sub-title-wood {
   font-size: 2rem;
   font-weight: bolder;
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
 .title-wood {
   font-size: 5rem;
   font-weight: bolder;
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
