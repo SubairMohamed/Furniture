@@ -132,7 +132,7 @@ div.card-header {
   color: white;
 }
 
-.description {
+div.card-header {
   font-size: 1.7rem;
   text-transform: capitalize;
   text-align: center;

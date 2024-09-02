@@ -161,7 +161,8 @@ $cardHeader: selector-unify("div", ".card-header");
     color:  white;
 }
 
-.description {
+$description: selector-unify("span", ".description");
+#{$cardHeader} {
     font-size: 1.7rem;
     text-transform: capitalize;
     text-align: center;
