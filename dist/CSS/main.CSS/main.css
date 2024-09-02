@@ -86,7 +86,7 @@ nav ul li a {
   color: #FFAF00;
 }
 
-.sub-title, .sub-title-blog, .sub-para-blog, span.sub-title-owner {
+span.sub-title, span.sub-title-blog, span.sub-para-blog, span.sub-title-owner {
   font-size: 1.5rem;
   color: white;
   text-align: center;

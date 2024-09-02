@@ -108,13 +108,14 @@ $btnHover: selector-nest(".btn", "&:hover");
 // Start Main
 // ==========
 
-.sub-title {
+$subHeader: selector-unify("span", ".sub-title");
+#{$subHeader} {
     font-size: 1.5rem;
     color: white;
     text-align: center;
     display: block;
     padding: 1rem 0 0 0;
-    margin: 6rem 0 0 0;
+    margin: 6rem 0 0 0;  
 }
 
 .title-main {
