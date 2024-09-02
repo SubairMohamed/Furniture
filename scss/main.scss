@@ -156,7 +156,8 @@ $image: selector-unify("img", ".img");
     border-radius: 10px; 
 }
 
-.card-header {
+$cardHeader: selector-unify("div", ".card-header");
+#{$cardHeader} {
     color:  white;
 }
 
