@@ -183,7 +183,8 @@ $titleCard: selector-unify("h5", ".title-card");
     padding: 0 0 0.5rem 0;
 }
 
-.card:hover .title-card {
+$card-and-title-card: selector-nest(".card", "&:hover", ".title-card");
+#{$card-and-title-card} {
     color: $Nav;
 }
 
