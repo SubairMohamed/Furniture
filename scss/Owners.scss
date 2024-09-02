@@ -1,0 +1,75 @@
+// Start owner
+// ==========
+
+$Title-Sub: selector-unify("span", ".sub-title-owner");
+#{$Title-Sub} {
+    @extend .sub-title;
+    margin: 4rem 0 0 0;
+}
+
+$Title-Sub: selector-unify("h1", ".title-main-owner");
+#{$Title-Sub} {
+    font-size: 3rem;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+$wrap: selector-nest(".wrap");
+#{$wrap} {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+$wrap-content: selector-nest(".wrap", ".content");
+#{$wrap-content} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem; 
+}
+
+$wrap-content-img: selector-nest(".wrap", ".content", ".img-owner");
+#{$wrap-content-img} {
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0 0 1.5rem 0;
+    margin: 2rem 0 0 2rem; 
+}
+
+$wrap-content-img: selector-nest(".wrap", ".content", ".img-owner", "&:hover");
+#{$wrap-content-img} {
+    opacity: 0.5;
+}
+
+$wrap-content-title-owner: selector-nest(".wrap", ".content", ".title-owner");
+#{$wrap-content-title-owner} {
+    font-size: 1.5rem;
+    color: white;
+}
+
+$wrap-content-name-owner: selector-nest(".wrap", ".content", ".name-owner"); 
+#{$wrap-content-name-owner} {
+    font-size: 2rem;
+    color: white;
+}
+
+$wrap-content-description-owner: selector-nest(".wrap", ".content", ".description-owner"); 
+#{$wrap-content-description-owner} {
+    @extend .title-owner;
+    padding: 0 0 1rem 0;
+}
+
+$social-icons: selector-unify("i", ".fa-brands");
+#{$social-icons} {
+    font-size: 1.5rem;
+    color: #FFAF00;
+    padding: 0 .5rem;
+}
+
+// Ends Owners
+// ===========
