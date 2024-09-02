@@ -373,7 +373,7 @@ hr {
 .para-copy, .theme, .term-1:hover, .term-2:hover {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: #ffffff;
   line-height: 24px;
   width: 25%;
 }
@@ -388,7 +388,7 @@ hr {
 }
 
 .term-1, .term-2 {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   padding-right: 1.3rem;
 }

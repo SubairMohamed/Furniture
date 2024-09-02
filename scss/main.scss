@@ -317,7 +317,7 @@ hr {
 .para-copy {
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: $Paraground;
     line-height: 24px;
     width: 25%;
 }
@@ -333,7 +333,7 @@ hr {
 }
 
 .term-1 {
-    color: white;
+    color: $Paraground;
     text-decoration: none;
     padding-right: 1.3rem;
 }
@@ -343,7 +343,7 @@ hr {
 }
 
 .theme:hover {
-    color: #0C0C0C;
+    color: $Background;
 }
 
 .term-1:hover {
