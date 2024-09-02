@@ -176,7 +176,7 @@ $card-and-description: selector-nest(".card", "&:hover", ".description");
 }
 
 $titleCard: selector-unify("h5", ".title-card");
-#{$card-and-description} {
+#{$titleCard} {
     font-size: 2rem;
     text-transform: capitalize;
     text-align: center;
