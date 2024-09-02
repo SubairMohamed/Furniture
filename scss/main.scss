@@ -170,7 +170,8 @@ $description: selector-unify("span", ".description");
     padding: .5rem 0 0 0;
 }
 
-.card:hover .description {
+$card-and-description: selector-nest(".card", "&:hover", ".description");
+#{$card-and-description} {
     color: $Nav;
 }
 
