@@ -43,6 +43,13 @@
     color: $Nav;
 }
 
+.title-card {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+}
+
 
 
 

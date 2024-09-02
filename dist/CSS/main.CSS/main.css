@@ -144,7 +144,7 @@ div.card-header {
   color: #FFAF00;
 }
 
-.title-card {
+.card:hover .description {
   font-size: 2rem;
   text-transform: capitalize;
   text-align: center;
