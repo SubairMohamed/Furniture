@@ -78,7 +78,7 @@ nav {
         size: 2rem;
         weight: bolder;
     }
-    color: #FFC100;
+    color: $Fontground;
     width: 650px;
     text-transform: capitalize;
     letter-spacing: 2px;
@@ -90,18 +90,18 @@ nav {
         weight: bold;
     }
     text-transform: capitalize;
-    color: white;
-    background-color: orange;
+    color: $Paraground;
+    background-color: $Fontground;
     padding: .3rem .4rem;
     margin-top: 0.5rem;
     border-radius: 10px;
-    border: 2px solid red;
+    border: 2px solid $Fontground;
 }
 
 $btnHover: selector-nest(".btn", "&:hover");
 #{$btnHover} {
-    background-color: white;
-    color: #FFAF00;
+    background-color: $Paraground;
+    color: $Fontground;
 }
 // Ends Header
 // ==========

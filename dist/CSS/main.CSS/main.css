@@ -63,7 +63,7 @@ nav ul li a {
 .para-header {
   font-size: 2rem;
   font-weight: bolder;
-  color: #FFC100;
+  color: #FFAF00;
   width: 650px;
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -73,16 +73,16 @@ nav ul li a {
   font-size: 1.8rem;
   font-weight: bold;
   text-transform: capitalize;
-  color: white;
-  background-color: orange;
+  color: #ffffff;
+  background-color: #FFAF00;
   padding: 0.3rem 0.4rem;
   margin-top: 0.5rem;
   border-radius: 10px;
-  border: 2px solid red;
+  border: 2px solid #FFAF00;
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: #ffffff;
   color: #FFAF00;
 }
 
