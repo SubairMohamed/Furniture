@@ -47,7 +47,7 @@ $description: selector-unify("span", ".description");
 
 $card-and-description: selector-nest(".card", "&:hover", ".description");
 #{$card-and-description} {
-    color: $Nav;
+    color: white;
 }
 
 $titleCard: selector-unify("h5", ".title-card");
@@ -60,7 +60,7 @@ $titleCard: selector-unify("h5", ".title-card");
 
 $card-and-title-card: selector-nest(".card", "&:hover", ".title-card");
 #{$card-and-title-card} {
-    color: $Nav;
+    color: white;
 }
 
 $rate: selector-unify("span", ".rate");

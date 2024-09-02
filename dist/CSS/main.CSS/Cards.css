@@ -1,0 +1,62 @@
+div.wrap-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card {
+  margin: 6rem 1rem 1rem 1rem;
+  padding: 1rem;
+  max-width: 420px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 1px gray;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  background-color: white;
+}
+
+img.img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+div.card-header {
+  color: white;
+}
+
+div.card-header {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  text-align: center;
+  display: block;
+  padding: 0.5rem 0 0 0;
+}
+
+.card:hover .description {
+  color: white;
+}
+
+h5.title-card {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0 0 0.5rem 0;
+}
+
+.card:hover .title-card {
+  color: white;
+}
+
+span.rate {
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  background-color: #0C0C0C;
+  border-radius: 50px;
+  padding: 0.5rem 0.2rem;
+}/*# sourceMappingURL=Cards.css.map */
