@@ -133,17 +133,19 @@ $wrapCard: selector-unify("div", ".wrap-cards");
     align-items: center; 
 }
 
-.card {
-  margin: 6rem 1rem 1rem 1rem;
-  padding: 1rem;
-  max-width: 420px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 4px 1px gray;
-  transition: all .4s ease-in-out;
+$card: selector-unify("div", ".card");
+#{$card} {
+    margin: 6rem 1rem 1rem 1rem;
+    padding: 1rem;
+    max-width: 420px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px gray;
+    transition: all .4s ease-in-out;
 }
 
-.card:hover {
-    background-color: white;
+$card: selector-nest(".card", "&:hover");
+#{$card} {
+  background-color: white;
 }
 
 .img {
