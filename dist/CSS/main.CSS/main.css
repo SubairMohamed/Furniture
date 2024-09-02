@@ -95,7 +95,7 @@ span.sub-title, span.sub-title-blog, span.sub-para-blog, span.sub-title-owner {
   margin: 6rem 0 0 0;
 }
 
-.title-main, .title-blog {
+h1.title-main, h1.title-blog {
   font-size: 3rem;
   color: white;
   text-align: center;
