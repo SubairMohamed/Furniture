@@ -54,6 +54,15 @@
     color: $Nav;
 }
 
+.rate {
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    background-color: #0C0C0C;
+    border-radius: 50px;
+    padding: 0.5rem .2rem;
+}
+
 
 
 

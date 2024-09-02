@@ -155,7 +155,7 @@ h5.title-card {
   color: #FFAF00;
 }
 
-.rate {
+span.rate {
   font-size: 3rem;
   display: block;
   text-align: center;

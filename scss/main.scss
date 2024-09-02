@@ -188,7 +188,8 @@ $card-and-title-card: selector-nest(".card", "&:hover", ".title-card");
     color: $Nav;
 }
 
-.rate {
+$rate: selector-unify("span", ".rate");
+#{$rate} {
     font-size: 3rem;
     display: block;
     text-align: center;
