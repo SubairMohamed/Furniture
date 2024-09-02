@@ -263,7 +263,7 @@ i.fa-brands {
 .para-wood {
   font-size: 2.6rem;
   font-weight: bolder;
-  color: white;
+  color: #ffffff;
   text-align: center;
   margin: 0 auto;
   width: 50%;
@@ -311,7 +311,7 @@ hr {
 .title-footer {
   font-size: 3.5rem;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -325,14 +325,14 @@ hr {
 
 .para-footer {
   font-size: 1.8rem;
-  color: white;
+  color: #ffffff;
   padding: 0 2rem;
   margin: auto;
 }
 
 .social-icons-footer .footer-icon {
   font-size: 2.5rem;
-  color: white;
+  color: #ffffff;
   padding-left: 1rem;
 }
 
@@ -351,7 +351,7 @@ hr {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
 }

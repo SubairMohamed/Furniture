@@ -1,6 +1,7 @@
 $Fontground: #FFAF00;
 $Background: #0C0C0C;
 $Paraground: #ffffff;
+$FooterContainer: #1E201E;
 
 * {
   margin: 0;
@@ -186,7 +187,7 @@ $titleMain: selector-unify("h1", ".title-main");
 .para-wood {
     font-size: 2.6rem;
     font-weight: bolder;
-    color: white;
+    color: $Paraground;
     text-align: center;
     margin: 0 auto;
     width: 50%;
@@ -214,7 +215,7 @@ $titleMain: selector-unify("h1", ".title-main");
 hr {
     width: 4%;
     margin: 0 auto;
-    border: 3px solid #FFAF00;
+    border: 3px solid $Fontground;
 }
 
 .sub-para-blog {
@@ -229,7 +230,7 @@ hr {
 
 .footer-container {
   height: 70vh;
-  background: #1E201E
+  background: $FooterContainer;
 }
 
 .footer-container-content {
@@ -251,7 +252,7 @@ hr {
 .title-footer {
   font-size: 3.5rem;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: $Paraground;
   text-transform: uppercase;
 }
 
@@ -259,25 +260,25 @@ hr {
     display: flex;
     width: 30%;
     height: 30vh;
-     border-left: 1px solid #FFAF00;
-    border-right: 1px solid #FFAF00;
+     border-left: 1px solid $Fontground;
+    border-right: 1px solid $Fontground;
 }
 
 .para-footer {
     font-size: 1.8rem;
-    color: white;
+    color: $Paraground;
     padding: 0 2rem;
     margin: auto;
 }
 
 .social-icons-footer .footer-icon {
     font-size: 2.5rem;
-    color: white;
+    color: $Paraground;
     padding-left: 1rem;
 }
 
 .social-icons-footer .footer-icon:hover {
-    color: #FFAF00;
+    color: $Fontground;
 }
 
 .nav-footer {
@@ -289,7 +290,7 @@ hr {
             font-size: 2rem;
             font-family: "Poppins", sans-serif;
             font-weight: bold;
-            color: white;
+            color: $Paraground;
             text-decoration: none;
             text-transform: uppercase;
         }
@@ -297,7 +298,7 @@ hr {
 }
 
 .nav-footer .list-footer a:hover {
-    color: #FFAF00;
+    color: $Fontground;
 }
 
 // copy-right
@@ -305,7 +306,7 @@ hr {
 .copy-right {
     width: 100%;
     height: 21vh;
-    background: lighten(#FFAF00, 10%);
+    background: lighten($Fontground, 10%);
 
     display: flex;
     flex-direction: row;
