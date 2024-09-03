@@ -132,3 +132,26 @@ i {
 }
 */
 /* Ends owner */
+
+/* blog */
+/* ====== */
+/* 
+
+.blog {
+    margin: 8rem 0;
+}
+
+.sub-title-blog {
+    @extend .sub-title;
+    font-family: "Poppins", sans-serif;
+}
+
+.title-blog {
+    @extend .title-main;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+*/

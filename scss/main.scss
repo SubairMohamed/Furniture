@@ -208,18 +208,27 @@ $titleMain: selector-unify("h1", ".title-main");
 // Start Blog
 // ==========
 
-.blog {
-    margin: 8rem 0;
+$blog: selector-unify("div", ".blog");
+#{$blog} {
+    margin: 8rem 0; 
 }
 
-.sub-title-blog {
-    @extend .sub-title;
+$sub-title-blog: selector-unify("p", ".sub-title-blog");
+#{$sub-title-blog} {
+    font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
+    color: $Paraground;
+    text-align: center;
+    padding: 1rem 0 0 0;
+    margin: 6rem 0 0 0;
 }
 
-.title-blog {
-    @extend .title-main;
+$title-blog: selector-unify("h3", ".title-blog");
+#{$title-blog} {
+    font-size: 3rem;
     font-family: "Poppins", sans-serif;
+    color: $Paraground;
+    text-align: center;
 }
 
 hr {

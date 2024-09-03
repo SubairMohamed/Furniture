@@ -99,7 +99,7 @@ nav ul li a {
   color: #FFAF00;
 }
 
-span.sub-title, span.sub-title-blog, span.sub-para-blog {
+span.sub-title {
   font-size: 1.5rem;
   color: #ffffff;
   text-align: center;
@@ -108,7 +108,7 @@ span.sub-title, span.sub-title-blog, span.sub-para-blog {
   margin: 6rem 0 0 0;
 }
 
-h1.title-main, h1.title-blog {
+h1.title-main {
   font-size: 3rem;
   color: #ffffff;
   text-align: center;
@@ -285,16 +285,24 @@ i.fa-brands {
   width: 50%;
 }
 
-.blog {
+div.blog {
   margin: 8rem 0;
 }
 
-.sub-title-blog, .sub-para-blog {
+p.sub-title-blog, p.sub-para-blog {
+  font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0 0 0;
+  margin: 6rem 0 0 0;
 }
 
-.title-blog {
+h3.title-blog {
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-align: center;
 }
 
 hr {
