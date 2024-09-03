@@ -1,3 +1,4 @@
+$Fontground: #FFAF00;
 // Start Cards
 // ===========
 $wrapCard: selector-unify("div", ".wrap-cards");
@@ -37,7 +38,7 @@ $cardHeader: selector-unify("div", ".card-header");
 }
 
 $description: selector-unify("span", ".description");
-#{$cardHeader} {
+#{$description} {
     font-size: 1.7rem;
     text-transform: capitalize;
     text-align: center;
@@ -47,7 +48,7 @@ $description: selector-unify("span", ".description");
 
 $card-and-description: selector-nest(".card", "&:hover", ".description");
 #{$card-and-description} {
-    color: white;
+    color: $Fontground;
 }
 
 $titleCard: selector-unify("h5", ".title-card");
