@@ -157,6 +157,10 @@ hr {
     border: 3px solid $Fontground;
 }
 
+.sub-para-blog {
+    @extend .sub-title-blog;
+}
+
 
 
 
