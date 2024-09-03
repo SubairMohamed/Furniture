@@ -231,10 +231,12 @@ $title-blog: selector-unify("h3", ".title-blog");
     text-align: center;
 }
 
-hr {
+
+$horizontal-line: selector-append("hr");
+#{$horizontal-line} {
     width: 4%;
     margin: 0 auto;
-    border: 3px solid $Fontground;
+    border: 3px solid $Fontground; 
 }
 
 .sub-para-blog {
