@@ -31,7 +31,7 @@
     color:  white;
 }
 
-..description {
+.description {
     font-size: 1.7rem;
     text-transform: capitalize;
     text-align: center;
@@ -62,10 +62,6 @@
     border-radius: 50px;
     padding: 0.5rem .2rem;
 }
-
-
-
-
 
 */
 

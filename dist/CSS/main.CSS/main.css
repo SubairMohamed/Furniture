@@ -86,7 +86,7 @@ nav ul li a {
   color: #FFAF00;
 }
 
-span.sub-title, span.sub-title-blog, span.sub-para-blog, span.sub-title-owner {
+span.sub-title, span.sub-title-blog, span.sub-para-blog {
   font-size: 1.5rem;
   color: #ffffff;
   text-align: center;
@@ -101,14 +101,14 @@ h1.title-main, h1.title-blog {
   text-align: center;
 }
 
-div.wrap-cards {
+.wrap-cards {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-div.card {
+.card {
   margin: 6rem 1rem 1rem 1rem;
   padding: 1rem;
   max-width: 420px;
@@ -121,19 +121,16 @@ div.card {
   background-color: white;
 }
 
-img.img {
+.img {
   width: 400px;
   display: block;
   margin: 0 auto;
   border-radius: 10px;
 }
 
-div.card-header {
-  color: white;
-}
-
-div.card-header {
+.description {
   font-size: 1.7rem;
+  color: #ffffff;
   text-transform: capitalize;
   text-align: center;
   display: block;
@@ -141,25 +138,27 @@ div.card-header {
 }
 
 .card:hover .description {
-  color: white;
+  color: #FFAF00;
 }
 
-h5.title-card {
+.title-card {
   font-size: 2rem;
+  color: #ffffff;
   text-transform: capitalize;
   text-align: center;
   padding: 0 0 0.5rem 0;
 }
 
 .card:hover .title-card {
-  color: white;
+  color: #FFAF00;
 }
 
-span.rate {
+.rate {
   font-size: 3rem;
+  color: #ffffff;
+  background-color: #0C0C0C;
   display: block;
   text-align: center;
-  background-color: #0C0C0C;
   border-radius: 50px;
   padding: 0.5rem 0.2rem;
 }
