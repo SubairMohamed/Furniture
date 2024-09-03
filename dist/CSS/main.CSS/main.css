@@ -285,6 +285,32 @@ i.fa-brands {
   width: 50%;
 }
 
+div.blog {
+  margin: 8rem 0;
+}
+
+p.sub-title-blog, p.sub-para-blog {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0 0 0;
+  margin: 6rem 0 0 0;
+}
+
+h3.title-blog {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+hr {
+  width: 4%;
+  margin: 0 auto;
+  border: 3px solid #FFAF00;
+}
+
 .footer-container {
   height: 70vh;
   background: #1E201E;
