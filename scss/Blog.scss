@@ -1,3 +1,6 @@
+// Start Blog
+// ==========
+
 $blog: selector-unify("div", ".blog");
 #{$blog} {
     margin: 8rem 0; 
@@ -32,3 +35,6 @@ $sub-para-blog: selector-unify("p", ".sub-para-blog");
 #{$sub-para-blog} {
     @extend .sub-title-blog;
 }
+
+// Ends Blog
+// =========
