@@ -29,6 +29,15 @@ header {
     z-index: 1;
   }
 
+  .content-top {
+    max-width: 94%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .logo-header {
     width: 10%;
   }
