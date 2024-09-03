@@ -10,12 +10,12 @@ div.card {
   padding: 1rem;
   max-width: 420px;
   border-radius: 10px;
-  box-shadow: 1px 1px 4px 1px gray;
+  box-shadow: 1px 1px 4px 1px #808080;
   transition: all 0.4s ease-in-out;
 }
 
 .card:hover {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 img.img {

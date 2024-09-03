@@ -1,7 +1,4 @@
-$Fontground: #FFAF00;
-$Background: #0C0C0C;
-$Paraground: #ffffff;
-$FooterContainer: #1E201E;
+@import "Variables.scss";
 
 // Start Cards
 // ===========
@@ -19,13 +16,13 @@ $card: selector-unify("div", ".card");
     padding: 1rem;
     max-width: 420px;
     border-radius: 10px;
-    box-shadow: 1px 1px 4px 1px gray;
+    box-shadow: 1px 1px 4px 1px $Shadow;
     transition: all .4s ease-in-out;
 }
 
 $card: selector-nest(".card", "&:hover");
 #{$card} {
-  background-color: white;
+  background-color: $Paraground;
 }
 
 $image: selector-unify("img", ".img");
@@ -69,7 +66,7 @@ $rate: selector-unify("span", ".rate");
 #{$rate} {
     font-size: 3rem;
     color: $Paraground;
-    background-color: #0C0C0C;
+    background-color: $Background;
     display: block;
     text-align: center;
     border-radius: 50px;
