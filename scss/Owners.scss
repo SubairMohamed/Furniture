@@ -6,9 +6,11 @@ $FooterContainer: #1E201E;
 // Start owner
 // ==========
 
-$Title-Sub: selector-unify("span", ".sub-title-owner");
-#{$Title-Sub} {
-    margin: 4rem 0 0 0;
+$subMainTitile: selector-unify("p", ".sub-main-title");
+#{$subMainTitile} {
+    font-size: 1.5rem;
+    color: $Paraground;
+    text-align: center;
 }
 
 $Title-Sub: selector-unify("h1", ".title-main-owner");
