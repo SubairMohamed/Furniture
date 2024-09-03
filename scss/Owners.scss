@@ -18,7 +18,7 @@ $subMainTitile: selector-unify("p", ".sub-main-title");
 $Title-Sub: selector-unify("h1", ".title-main-owner");
 #{$Title-Sub} {
     font-size: 3rem;
-    color: white;
+    color: $Paraground;
     text-transform: capitalize;
     text-align: center;
 }
@@ -57,13 +57,13 @@ $wrap-content-img: selector-nest(".wrap", ".content", ".img-owner", "&:hover");
 $wrap-content-title-owner: selector-nest(".wrap", ".content", ".title-owner");
 #{$wrap-content-title-owner} {
     font-size: 1.5rem;
-    color: white;
+    color: $Paraground;
 }
 
 $wrap-content-name-owner: selector-nest(".wrap", ".content", ".name-owner"); 
 #{$wrap-content-name-owner} {
     font-size: 2rem;
-    color: white;
+    color: $Paraground;
 }
 
 $wrap-content-description-owner: selector-nest(".wrap", ".content", ".description-owner"); 
@@ -75,7 +75,7 @@ $wrap-content-description-owner: selector-nest(".wrap", ".content", ".descriptio
 $social-icons: selector-unify("i", ".fa-brands");
 #{$social-icons} {
     font-size: 1.5rem;
-    color: #FFAF00;
+    color: $Fontground;
     padding: 0 .5rem;
 }
 
