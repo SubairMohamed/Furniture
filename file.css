@@ -234,6 +234,10 @@ hr {
     text-decoration: none;
 }
 
+.theme:hover {
+    color: $Background;
+}
+
 .term {
     font-size: 2rem;
     font-family: "Poppins", sans-serif;

@@ -411,6 +411,10 @@ a.theme, a.term-1:hover, a.term-2:hover {
   text-decoration: none;
 }
 
+.theme:hover, .term-1:hover, .term-2:hover {
+  color: red;
+}
+
 p.term {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
@@ -420,10 +424,6 @@ p.term {
   color: #ffffff;
   text-decoration: none;
   padding-right: 1.3rem;
-}
-
-.theme:hover, .term-1:hover, .term-2:hover {
-  color: #0C0C0C;
 }
 
 .img-footer {
