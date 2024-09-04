@@ -236,6 +236,13 @@ hr {
    line-height: 40px;
 }
 
+.title-footer {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  color: $Paraground;
+  text-transform: uppercase;
+}
+
 
 
 

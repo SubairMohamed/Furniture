@@ -196,13 +196,15 @@ $div-title-footer: selector-unify("div", ".div-title-footer");
    line-height: 40px;
 }
 
-.title-footer {
-  font-size: 3.5rem;
-  font-family: "Poppins", sans-serif;
-  color: $Paraground;
-  text-transform: uppercase;
+$title-footer: selector-unify("h3", ".title-footer");
+#{$title-footer} {
+    font-size: 3.5rem;
+    font-family: "Poppins", sans-serif;
+    color: $Paraground;
+    text-transform: uppercase;
 }
 
+$div-title-footer: selector-unify("div", ".div-title-footer");
 .div-para {
     display: flex;
     width: 30%;
@@ -211,6 +213,7 @@ $div-title-footer: selector-unify("div", ".div-title-footer");
     border-right: 1px solid $Fontground;
 }
 
+$div-title-footer: selector-unify("div", ".div-title-footer");
 .para-footer {
     font-size: 1.8rem;
     color: $Paraground;
@@ -218,12 +221,14 @@ $div-title-footer: selector-unify("div", ".div-title-footer");
     margin: auto;
 }
 
+$div-title-footer: selector-unify("div", ".div-title-footer");
 .social-icons-footer .footer-icon {
     font-size: 2.5rem;
     color: $Paraground;
     padding-left: 1rem;
 }
 
+$div-title-footer: selector-unify("div", ".div-title-footer");
 .social-icons-footer .footer-icon:hover {
     color: $Fontground;
 }
