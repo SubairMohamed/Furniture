@@ -194,6 +194,13 @@ hr {
     text-align: center;
 }
 
+.title-wood {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: $Paraground;
+    text-align: center;
+}
+
 
 
 
