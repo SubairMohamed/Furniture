@@ -238,13 +238,21 @@ i.fa-brands {
   padding: 0 0.5rem;
 }
 
-.wood {
+div.wood {
   width: 100%;
   height: 100vh;
   background-image: url("/scss/img/wood-3.jpg");
   background-repeat: no-repeat;
   opacity: 0.9;
   margin: 10rem 0 0 0;
+}
+
+.wood .content-wood {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-wood {
