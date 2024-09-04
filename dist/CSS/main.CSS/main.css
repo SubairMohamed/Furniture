@@ -262,14 +262,14 @@ div.wood {
   width: 98.2%;
 }
 
-.sub-title-wood {
+p.sub-title-wood {
   font-size: 2rem;
   font-weight: bolder;
   color: #ffffff;
   text-align: center;
 }
 
-.title-wood {
+h1.title-wood {
   font-size: 5rem;
   font-weight: bolder;
   color: #ffffff;

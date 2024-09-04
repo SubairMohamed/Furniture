@@ -190,14 +190,9 @@ $sub-title-wood: selector-unify("p", ".sub-title-wood");
     color: $Paraground;
     text-align: center;
 }
-.sub-title-wood {
-    font-size: 2rem;
-    font-weight: bolder;
-    color: $Paraground;
-    text-align: center;
-}
 
-.title-wood {
+$title-wood: selector-unify("h1", ".title-wood");
+#{$title-wood} {
     font-size: 5rem;
     font-weight: bolder;
     color: $Paraground;
