@@ -204,31 +204,31 @@ $title-footer: selector-unify("h3", ".title-footer");
     text-transform: uppercase;
 }
 
-$div-title-footer: selector-unify("div", ".div-title-footer");
-.div-para {
+$div-para: selector-unify("div", ".div-para");
+#{$div-para} {
     display: flex;
     width: 30%;
     height: 30vh;
-     border-left: 1px solid $Fontground;
+    border-left: 1px solid $Fontground;
     border-right: 1px solid $Fontground;
 }
 
-$div-title-footer: selector-unify("div", ".div-title-footer");
-.para-footer {
+$para-footer: selector-unify("p", ".para-footer");
+#{$para-footer} {
     font-size: 1.8rem;
     color: $Paraground;
     padding: 0 2rem;
-    margin: auto;
+    margin: auto;  
 }
 
-$div-title-footer: selector-unify("div", ".div-title-footer");
-.social-icons-footer .footer-icon {
+$social-icons-footer: selector-nest(".social-icons-footer", ".footer-icon");
+#{$social-icons-footer} {
     font-size: 2.5rem;
     color: $Paraground;
     padding-left: 1rem;
 }
 
-$div-title-footer: selector-unify("div", ".div-title-footer");
+// $div-title-footer: selector-unify("div", ".div-title-footer");
 .social-icons-footer .footer-icon:hover {
     color: $Fontground;
 }

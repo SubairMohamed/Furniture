@@ -243,6 +243,27 @@ hr {
   text-transform: uppercase;
 }
 
+.div-para {
+    display: flex;
+    width: 30%;
+    height: 30vh;
+     border-left: 1px solid $Fontground;
+    border-right: 1px solid $Fontground;
+}
+
+.para-footer {
+    font-size: 1.8rem;
+    color: $Paraground;
+    padding: 0 2rem;
+    margin: auto;
+}
+
+.social-icons-footer .footer-icon {
+    font-size: 2.5rem;
+    color: $Paraground;
+    padding-left: 1rem;
+}
+
 
 
 
