@@ -199,14 +199,16 @@ $title-wood: selector-unify("h1", ".title-wood");
     text-align: center;
 }
 
-.para-wood {
+$para-wood: selector-unify("p", ".para-wood");
+#{$para-wood} {
     font-size: 2.6rem;
     font-weight: bolder;
     color: $Paraground;
     text-align: center;
     margin: 0 auto;
-    width: 50%;
+    width: 50%; 
 }
+
 // Ends Wood
 // ==========
 
