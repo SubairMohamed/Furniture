@@ -283,6 +283,11 @@ $para-copy-theme: selector-unify("a", ".theme");
     text-decoration: none;
 }
 
+@mixin fonts {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
 .term {
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
