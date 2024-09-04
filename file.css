@@ -180,6 +180,13 @@ hr {
     align-items: center;
 }
 
+.bg-content-wood {
+    background: $Fontground;
+    padding: 1rem;
+    opacity: 0.7;
+    width: 98.2%;
+}
+
 
 
 
