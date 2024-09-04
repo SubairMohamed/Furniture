@@ -1,5 +1,58 @@
 // Start Wood
 // ==========
 
+$wood: selector-unify("div", ".wood");
+#{$wood} {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/scss/img/wood-3.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    margin: 10rem 0 0 0;
+}
+
+$woodContent: selector-nest(".wood", ".content-wood");
+#{$woodContent} {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+$woodContentBackground: selector-nest(".wood", ".content-wood", ".bg-content-wood");
+#{$woodContentBackground} {
+    background: $Fontground;
+    padding: 1rem;
+    opacity: 0.7;
+    width: 98.2%;
+}
+
+$sub-title-wood: selector-unify("p", ".sub-title-wood");
+#{$sub-title-wood} {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: $Paraground;
+    text-align: center;
+}
+
+$title-wood: selector-unify("h1", ".title-wood");
+#{$title-wood} {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: $Paraground;
+    text-align: center;
+}
+
+$para-wood: selector-unify("p", ".para-wood");
+#{$para-wood} {
+    font-size: 2.6rem;
+    font-weight: bolder;
+    color: $Paraground;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%; 
+}
+
 // Ends Wood
 // ==========
