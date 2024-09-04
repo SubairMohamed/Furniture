@@ -172,12 +172,14 @@ $titleMain: selector-unify("h1", ".title-main");
 // Start Footer
 // ============
 
-.footer-container {
+$footerContainer: selector-unify("div", ".footer-container");
+#{$footerContainer} {
   height: 70vh;
   background: $FooterContainer;
 }
 
-.footer-container-content {
+$footerContainerContent: selector-nest(".footer-container", ".footer-container-content");
+#{$footerContainerContent} {
     display: flex;
     flex-direction: row;
     justify-content: space-around;

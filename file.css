@@ -215,7 +215,21 @@ hr {
 /* ======= */
 /* 
 
+.footer-container {
+  height: 70vh;
+  background: $FooterContainer;
+}
 
+.footer-container-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 74%;
+    height: 65vh;
+    padding: 1rem .5rem;
+    margin: auto;
+}
 
 
 

@@ -311,12 +311,12 @@ hr {
   border: 3px solid #FFAF00;
 }
 
-.footer-container {
+div.footer-container {
   height: 70vh;
   background: #1E201E;
 }
 
-.footer-container-content {
+.footer-container .footer-container-content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
