@@ -259,8 +259,7 @@ $copyRight: selector-unify("div", ".copy-right");
     justify-content: space-evenly;
 }
 
-$para-copy: selector-unify("p", ".para-copy");
-
+$para-copy: selector-unify("p", ".para-copy");s
 #{$para-copy} {
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
@@ -327,6 +326,9 @@ $term-2: selector-nest(".term-2", "&:hover");
 #{$term-2} {
     color: $Background;
 }
+
+// Ends Footer
+// ============
 
 @keyframes animate {
     0%, 100% {
