@@ -175,7 +175,8 @@ $woodContent: selector-nest(".wood", ".content-wood");
     align-items: center;
 }
 
-.bg-content-wood {
+$woodContentBackground: selector-nest(".wood", ".content-wood", ".bg-content-wood");
+#{$woodContentBackground} {
     background: $Fontground;
     padding: 1rem;
     opacity: 0.7;
