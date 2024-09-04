@@ -412,7 +412,7 @@ a.theme, a.term-1:hover, a.term-2:hover {
 }
 
 .theme:hover, .term-1:hover, .term-2:hover {
-  color: red;
+  color: #0C0C0C;
 }
 
 p.term {

@@ -277,14 +277,14 @@ $para-copy: selector-unify("p", ".para-copy");
     width: 25%; 
 }
 
-$para-copy-theme: selector-unify("a", ".theme");
-#{$para-copy-theme} {
+$theme: selector-unify("a", ".theme");
+#{$theme} {
     @include paragraphy-copys;
     text-decoration: none;
 }
 
-$para-copy-theme: selector-unify("a", ".theme", "&:hover");
-#{$para-copy-theme} {
+$theme-hover: selector-nest(".theme", "&:hover");
+#{$theme-hover} {
     color: $Background;
 }
 
