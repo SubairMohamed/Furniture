@@ -255,14 +255,6 @@ div.wood {
   align-items: center;
 }
 
-.content-wood {
-  height: 95vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .bg-content-wood {
   background: #FFAF00;
   padding: 1rem;

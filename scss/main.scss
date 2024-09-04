@@ -175,14 +175,6 @@ $woodContent: selector-nest(".wood", ".content-wood");
     align-items: center;
 }
 
-.content-wood {
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .bg-content-wood {
     background: $Fontground;
     padding: 1rem;
