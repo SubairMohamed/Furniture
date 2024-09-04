@@ -228,8 +228,8 @@ $social-icons-footer: selector-nest(".social-icons-footer", ".footer-icon");
     padding-left: 1rem;
 }
 
-// $div-title-footer: selector-unify("div", ".div-title-footer");
-.social-icons-footer .footer-icon:hover {
+$social-icons-footer-hover: selector-nest(".social-icons-footer", ".footer-icon", "&:hover");
+#{$social-icons-footer-hover} {
     color: $Fontground;
 }
 

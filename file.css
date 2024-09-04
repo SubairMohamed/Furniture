@@ -264,6 +264,10 @@ hr {
     padding-left: 1rem;
 }
 
+.social-icons-footer .footer-icon:hover {
+    color: $Fontground;
+}
+
 
 
 
