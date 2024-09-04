@@ -311,6 +311,139 @@ hr {
   border: 3px solid #FFAF00;
 }
 
+div.footer-container {
+  height: 70vh;
+  background: #1E201E;
+}
+
+.footer-container .footer-container-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 74%;
+  height: 65vh;
+  padding: 1rem 0.5rem;
+  margin: auto;
+}
+
+div.div-title-footer {
+  max-width: 14%;
+  line-height: 40px;
+}
+
+h3.title-footer {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+div.div-para {
+  display: flex;
+  width: 30%;
+  height: 30vh;
+  border-left: 1px solid #FFAF00;
+  border-right: 1px solid #FFAF00;
+}
+
+p.para-footer {
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+.social-icons-footer .footer-icon {
+  font-size: 2.5rem;
+  color: #ffffff;
+  padding-left: 1rem;
+}
+
+.social-icons-footer .footer-icon:hover {
+  color: #FFAF00;
+}
+
+.nav-footer {
+  margin-left: 2rem;
+}
+.nav-footer .list-footer {
+  list-style: none;
+  padding: 0 0 0.5rem 0;
+}
+.nav-footer .list-footer a {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-footer .list-footer a:hover {
+  color: #FFAF00;
+}
+
+div.copy-right {
+  width: 100%;
+  height: 21vh;
+  background: #ffbf33;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+p.para-copy {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 24px;
+  width: 25%;
+}
+
+a.theme {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 24px;
+  width: 25%;
+  text-decoration: none;
+}
+
+.theme:hover {
+  color: #0C0C0C;
+}
+
+p.term {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+img.img-footer {
+  width: 8%;
+}
+
+a.term-1 {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 1.3rem;
+}
+
+.term-1:hover {
+  color: #0C0C0C;
+}
+
+a.term-2 {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 1.3rem;
+}
+
+.term-2:hover {
+  color: #0C0C0C;
+}
+
 @keyframes animate {
   0%, 100% {
     background-image: url("/scss/img/furniture-6.jpg");
