@@ -221,6 +221,19 @@ hr {
     justify-content: space-evenly;
 }
 
+.para-copy {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: $Paraground;
+    line-height: 24px;
+    width: 25%;
+}
+
+.theme {
+    @extend .para-copy;
+    text-decoration: none;
+}
+
 
 
 

@@ -259,15 +259,17 @@ $copyRight: selector-unify("div", ".copy-right");
     justify-content: space-evenly;
 }
 
-.para-copy {
+$para-copy: selector-unify("p", ".para-copy");
+#{$para-copy} {
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
     color: $Paraground;
     line-height: 24px;
-    width: 25%;
+    width: 25%;  
 }
 
-.theme {
+$para-copy-theme: selector-unify("a", ".theme");
+#{$para-copy-theme} {
     @extend .para-copy;
     text-decoration: none;
 }

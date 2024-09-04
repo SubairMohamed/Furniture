@@ -394,7 +394,7 @@ div.copy-right {
   justify-content: space-evenly;
 }
 
-.para-copy, .theme, .term-1:hover, .term-2:hover {
+p.para-copy {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
@@ -402,7 +402,7 @@ div.copy-right {
   width: 25%;
 }
 
-.theme, .term-1:hover, .term-2:hover {
+a.theme, a.term-1:hover, a.term-2:hover {
   text-decoration: none;
 }
 
