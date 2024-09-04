@@ -247,7 +247,8 @@ $titleMain: selector-unify("h1", ".title-main");
 
 // copy-right
 
-.copy-right {
+$copyRight: selector-unify("div", ".copy-right");
+#{$copyRight} {
     width: 100%;
     height: 21vh;
     background: lighten($Fontground, 10%);
