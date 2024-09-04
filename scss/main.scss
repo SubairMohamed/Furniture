@@ -183,6 +183,13 @@ $woodContentBackground: selector-nest(".wood", ".content-wood", ".bg-content-woo
     width: 98.2%;
 }
 
+$sub-title-wood: selector-unify("p", ".sub-title-wood");
+#{$sub-title-wood} {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: $Paraground;
+    text-align: center;
+}
 .sub-title-wood {
     font-size: 2rem;
     font-weight: bolder;
