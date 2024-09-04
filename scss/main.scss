@@ -299,6 +299,10 @@ $term: selector-unify("p", ".term");
   @include fonts;
 }
 
+$img-footer: selector-unify("img", ".img-footer");
+#{$img-footer} {
+    width: 8%;
+}
 
 .term-1 {
     color: $Paraground;
@@ -313,11 +317,6 @@ $term: selector-unify("p", ".term");
 .term-1:hover {
     @extend .theme;
 }
-
-.img-footer {
-    width: 8%;
-}
-
 
 @keyframes animate {
     0%, 100% {

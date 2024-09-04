@@ -420,14 +420,14 @@ p.term {
   font-family: "Poppins", sans-serif;
 }
 
+img.img-footer {
+  width: 8%;
+}
+
 .term-1, .term-2 {
   color: #ffffff;
   text-decoration: none;
   padding-right: 1.3rem;
-}
-
-.img-footer {
-  width: 8%;
 }
 
 @keyframes animate {
