@@ -403,6 +403,11 @@ p.para-copy {
 }
 
 a.theme, a.term-1:hover, a.term-2:hover {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 24px;
+  width: 25%;
   text-decoration: none;
 }
 

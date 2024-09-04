@@ -260,6 +260,7 @@ $copyRight: selector-unify("div", ".copy-right");
 }
 
 $para-copy: selector-unify("p", ".para-copy");
+
 #{$para-copy} {
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
@@ -268,9 +269,17 @@ $para-copy: selector-unify("p", ".para-copy");
     width: 25%;  
 }
 
+@mixin paragraphy-copys {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    color: $Paraground;
+    line-height: 24px;
+    width: 25%; 
+}
+
 $para-copy-theme: selector-unify("a", ".theme");
 #{$para-copy-theme} {
-    @extend .para-copy;
+    @include paragraphy-copys;
     text-decoration: none;
 }
 
