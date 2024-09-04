@@ -402,7 +402,7 @@ p.para-copy {
   width: 25%;
 }
 
-a.theme, a.term-1:hover, a.term-2:hover {
+a.theme {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
@@ -411,7 +411,7 @@ a.theme, a.term-1:hover, a.term-2:hover {
   text-decoration: none;
 }
 
-.theme:hover, .term-1:hover, .term-2:hover {
+.theme:hover {
   color: #0C0C0C;
 }
 
@@ -424,10 +424,24 @@ img.img-footer {
   width: 8%;
 }
 
-.term-1, .term-2 {
+a.term-1 {
   color: #ffffff;
   text-decoration: none;
   padding-right: 1.3rem;
+}
+
+.term-1:hover {
+  color: #0C0C0C;
+}
+
+a.term-2 {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 1.3rem;
+}
+
+.term-2:hover {
+  color: #0C0C0C;
 }
 
 @keyframes animate {

@@ -304,18 +304,28 @@ $img-footer: selector-unify("img", ".img-footer");
     width: 8%;
 }
 
-.term-1 {
+$term-1: selector-unify("a", ".term-1");
+#{$term-1} {
     color: $Paraground;
     text-decoration: none;
     padding-right: 1.3rem;
 }
 
-.term-2 {
-    @extend .term-1
+$term-1: selector-nest(".term-1", "&:hover");
+#{$term-1} {
+    color: $Background;
 }
 
-.term-1:hover {
-    @extend .theme;
+$term-2: selector-unify("a", ".term-2");
+#{$term-2} {
+    color: $Paraground;
+    text-decoration: none;
+    padding-right: 1.3rem;
+}
+
+$term-2: selector-nest(".term-2", "&:hover");
+#{$term-2} {
+    color: $Background;
 }
 
 @keyframes animate {

@@ -247,6 +247,12 @@ hr {
     width: 8%;
 }
 
+.term-1 {
+    color: $Paraground;
+    text-decoration: none;
+    padding-right: 1.3rem;
+}
+
 
 
 
