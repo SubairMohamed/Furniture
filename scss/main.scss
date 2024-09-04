@@ -190,7 +190,8 @@ $footerContainerContent: selector-nest(".footer-container", ".footer-container-c
     margin: auto;
 }
 
-.div-title-footer {
+$div-title-footer: selector-unify("div", ".div-title-footer");
+#{$div-title-footer} {
    max-width: 14%;
    line-height: 40px;
 }

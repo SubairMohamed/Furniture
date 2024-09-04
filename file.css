@@ -231,6 +231,11 @@ hr {
     margin: auto;
 }
 
+.div-title-footer {
+   max-width: 14%;
+   line-height: 40px;
+}
+
 
 
 
