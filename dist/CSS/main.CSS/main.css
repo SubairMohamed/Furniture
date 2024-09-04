@@ -411,7 +411,7 @@ a.theme, a.term-1:hover, a.term-2:hover {
   text-decoration: none;
 }
 
-.term {
+p.term {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
 }

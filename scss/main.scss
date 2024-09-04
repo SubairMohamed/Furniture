@@ -288,10 +288,11 @@ $para-copy-theme: selector-unify("a", ".theme");
     font-family: "Poppins", sans-serif;
 }
 
-.term {
-    font-size: 2rem;
-    font-family: "Poppins", sans-serif;
+$term: selector-unify("p", ".term");
+#{$term} {
+  @include fonts;
 }
+
 
 .term-1 {
     color: $Paraground;
