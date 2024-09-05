@@ -55,6 +55,20 @@ header {
     letter-spacing: 2px;
 }
 
+.btn {
+    font: {
+        size: 1.8rem;
+        weight: bold;
+    }
+    text-transform: capitalize;
+    color: $Paraground;
+    background-color: $Fontground;
+    padding: .3rem .4rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid $Fontground;
+}
+
 
 } */
 

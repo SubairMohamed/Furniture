@@ -82,7 +82,7 @@ p.para-header {
   letter-spacing: 2px;
 }
 
-.btn {
+button.btn {
   font-size: 1.8rem;
   font-weight: bold;
   text-transform: capitalize;

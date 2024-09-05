@@ -105,8 +105,8 @@ $para-header: selector-unify("p", ".para-header");
     letter-spacing: 2px;
 }
 
-
-.btn {
+$btn-header: selector-unify("button", ".btn");
+#{$btn-header} {
     font: {
         size: 1.8rem;
         weight: bold;
@@ -119,6 +119,7 @@ $para-header: selector-unify("p", ".para-header");
     border-radius: 10px;
     border: 2px solid $Fontground;
 }
+
 
 $btnHover: selector-nest(".btn", "&:hover");
 #{$btnHover} {
