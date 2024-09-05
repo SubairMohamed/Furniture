@@ -76,12 +76,13 @@ nav {
     }
 }
 
-.content-header {
+$Container-header: selector-unify("div", ".content-header");
+#{$Container-header} {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: center;  
 }
 
 .title-header {

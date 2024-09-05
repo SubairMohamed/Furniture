@@ -60,7 +60,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-.content-header {
+div.content-header {
   position: absolute;
   left: 50%;
   top: 50%;
