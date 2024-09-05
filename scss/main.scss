@@ -13,11 +13,12 @@ body {
     background: $Background;
 }
 
-header {
+$Header: selector-unify("header");
+#{$Header} {
     background-color: $Background;
     width: 100%;
     height: 70vh;
-    position: relative;
+    position: relative; 
 }
 
 .container {
