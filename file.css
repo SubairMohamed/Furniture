@@ -44,6 +44,17 @@ header {
     color: $Paraground;
 }
 
+.para-header {
+    font: {
+        size: 2rem;
+        weight: bolder;
+    }
+    color: $Fontground;
+    width: 650px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
 
 } */
 
