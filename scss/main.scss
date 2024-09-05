@@ -41,9 +41,10 @@ $Container-top: selector-nest(".container", ".content-top");
     justify-content: space-between;  
 }
   
-.logo-header {
-    width: 10%;
-  }
+$logo-header: selector-unify("img", ".logo-header");
+#{$logo-header} {
+    width: 10%; 
+}
 
 // i used nasting SCSS
 // ===================
