@@ -85,7 +85,8 @@ $Container-header: selector-unify("div", ".content-header");
     text-align: center;  
 }
 
-.title-header {
+$title-header: selector-unify("h4", ".title-header");
+#{$title-header} {
     font: {
         size: 2.3rem;
     }
