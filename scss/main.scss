@@ -13,6 +13,9 @@ body {
     background: $Background;
 }
 
+// Start Header
+// ===========
+
 $Header: selector-unify("header", "#header");
 #{$Header} {
     background-color: $Background;
