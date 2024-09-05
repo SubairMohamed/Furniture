@@ -13,7 +13,7 @@ body {
     background: $Background;
 }
 
-$Header: selector-unify("header");
+$Header: selector-unify("header", "#header");
 #{$Header} {
     background-color: $Background;
     width: 100%;
