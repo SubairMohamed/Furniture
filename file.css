@@ -7,9 +7,25 @@ header {
     height: 70vh;
     position: relative;
 
+.container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animate 30s ease-in-out infinite;
+    z-index: 1;
+  }
+
+  .content-top {
+    max-width: 94%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
 
-    
 } */
 
 /* cards */
