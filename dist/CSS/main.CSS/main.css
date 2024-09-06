@@ -120,6 +120,13 @@ div.wrap-cards {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 1464px) {
+  div.wrap-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 
 div.card {
   margin: 6rem 1rem 1rem 1rem;
