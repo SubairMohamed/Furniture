@@ -19,6 +19,13 @@ h1.title-main-owner {
   justify-content: center;
   gap: 30px;
 }
+@media screen and (max-width: 1464px) {
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 
 .wrap .content {
   display: flex;

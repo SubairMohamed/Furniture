@@ -26,6 +26,13 @@ $wrap: selector-nest(".wrap");
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+
+     // respomsiveness
+     @media screen and (max-width: 1464px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 $wrap-content: selector-nest(".wrap", ".content");
