@@ -28,7 +28,18 @@ $Container-top: selector-nest(".container", ".content-top");
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
+    
+    // Responsive 
+    @media screen and (max-width: 960px) {
+        background: red;
+        margin: 0 auto;
+        max-width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
   
 $logo-header: selector-unify("img", ".logo-header");

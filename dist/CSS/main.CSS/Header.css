@@ -22,6 +22,17 @@ div.container {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 960px) {
+  .container .content-top {
+    background: red;
+    margin: 0 auto;
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 img.logo-header {
   width: 10%;
