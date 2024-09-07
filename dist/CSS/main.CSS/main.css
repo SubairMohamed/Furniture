@@ -39,6 +39,11 @@ div.container {
 img.logo-header {
   width: 10%;
 }
+@media screen and (max-width: 960px) {
+  img.logo-header {
+    visibility: hidden;
+  }
+}
 
 nav ul {
   display: flex;
