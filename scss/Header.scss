@@ -1,3 +1,5 @@
+@import "Variables";
+
 // Start Header
 // ===========
 
@@ -31,7 +33,12 @@ $Container-top: selector-nest(".container", ".content-top");
   
 $logo-header: selector-unify("img", ".logo-header");
 #{$logo-header} {
-    width: 10%; 
+    width: 10%;
+    
+    // Responsive
+    @media screen and (max-width: 960px) {
+        visibility: hidden;
+    }
 }
 
 // i used nasting SCSS
