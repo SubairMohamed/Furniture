@@ -103,6 +103,11 @@ $title-header: selector-unify("h4", ".title-header");
         size: 2.3rem;
     }
     color: $Paraground;
+
+     // Responsive 
+     @media screen and (max-width: 760px) {
+        font-size: 3rem;
+    }
 }
 
 $para-header: selector-unify("p", ".para-header");
@@ -115,6 +120,11 @@ $para-header: selector-unify("p", ".para-header");
     width: 650px;
     text-transform: capitalize;
     letter-spacing: 2px;
+
+    // Responsive 
+    @media screen and (max-width: 760px) {
+        visibility: hidden;
+    }
 }
 
 $btn-header: selector-unify("button", ".btn");
