@@ -110,8 +110,19 @@ button.btn {
   border-radius: 10px;
   border: 2px solid #FFAF00;
 }
+@media screen and (max-width: 760px) {
+  button.btn {
+    visibility: hidden;
+  }
+}
 
 .btn:hover {
   background-color: #ffffff;
   color: #FFAF00;
+}
+
+@media screen and (max-width: 760px) {
+  button.show {
+    visibility: visible;
+  }
 }/*# sourceMappingURL=Header.css.map */

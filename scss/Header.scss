@@ -138,6 +138,11 @@ $btn-header: selector-unify("button", ".btn");
     margin-top: 0.5rem;
     border-radius: 10px;
     border: 2px solid $Fontground;
+
+    // Responsive
+    @media screen and (max-width: 760px) {
+        visibility: hidden;
+      }
 }
 
 
@@ -150,4 +155,10 @@ $btnHover: selector-nest(".btn", "&:hover");
 // Ends Header
 // ===========
 
-// hide section
+// show section
+$show: selector-unify("button", ".show");
+#{$show} {
+    @media screen and (max-width: 760px) {
+      visibility: visible;
+    }
+}
