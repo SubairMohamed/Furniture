@@ -79,6 +79,11 @@ nav ul li a {
     font-size: 2rem;
   }
 }
+@media screen and (max-width: 760px) {
+  nav ul li a {
+    font-size: 1.8rem;
+  }
+}
 
 div.content-header {
   position: absolute;
