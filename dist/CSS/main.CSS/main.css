@@ -100,6 +100,7 @@ h4.title-header {
 @media screen and (max-width: 760px) {
   h4.title-header {
     font-size: 3rem;
+    line-height: 12px;
   }
 }
 

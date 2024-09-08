@@ -98,11 +98,6 @@ p.para-header {
   text-transform: capitalize;
   letter-spacing: 2px;
 }
-@media screen and (max-width: 760px) {
-  p.para-header {
-    visibility: hidden;
-  }
-}
 
 button.btn {
   font-size: 1.8rem;
