@@ -124,10 +124,4 @@ button.btn {
 .btn:hover {
   background-color: #ffffff;
   color: #FFAF00;
-}
-
-@media screen and (max-width: 760px) {
-  button.show {
-    visibility: visible;
-  }
 }/*# sourceMappingURL=Header.css.map */

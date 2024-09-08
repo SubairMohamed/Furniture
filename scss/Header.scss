@@ -158,10 +158,3 @@ $btnHover: selector-nest(".btn", "&:hover");
 // Ends Header
 // ===========
 
-// show section
-$show: selector-unify("button", ".show");
-#{$show} {
-    @media screen and (max-width: 760px) {
-      visibility: visible;
-    }
-}
