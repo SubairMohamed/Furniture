@@ -174,11 +174,7 @@ $show: selector-unify("button", ".show");
     border: 2px solid $Fontground;
 
     // Responsive
-    @media screen and (max-width: 760px) {
-      visibility: visible;
-    }
-
-    @media screen and (max-width: 759px) {
+    @media screen and (min-width: 760px) {
         visibility: hidden;
       }
 }
