@@ -100,7 +100,6 @@ h4.title-header {
 @media screen and (max-width: 760px) {
   h4.title-header {
     font-size: 3rem;
-    line-height: 12px;
   }
 }
 
@@ -111,11 +110,6 @@ p.para-header {
   width: 650px;
   text-transform: capitalize;
   letter-spacing: 2px;
-}
-@media screen and (max-width: 760px) {
-  p.para-header {
-    visibility: hidden;
-  }
 }
 
 button.btn {
