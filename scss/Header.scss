@@ -177,6 +177,10 @@ $show: selector-unify("button", ".show");
     @media screen and (max-width: 760px) {
       visibility: visible;
     }
+
+    @media screen and (max-width: 759px) {
+        visibility: hidden;
+      }
 }
 
 $showHover: selector-nest(".show", "&:hover");

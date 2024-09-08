@@ -142,6 +142,11 @@ button.show {
     visibility: visible;
   }
 }
+@media screen and (max-width: 759px) {
+  button.show {
+    visibility: hidden;
+  }
+}
 
 .show:hover {
   background-color: #ffffff;
