@@ -158,3 +158,29 @@ $btnHover: selector-nest(".btn", "&:hover");
 // Ends Header
 // ===========
 
+// show section
+$show: selector-unify("button", ".show");
+#{$show} {
+    font: {
+        size: 1.8rem;
+        weight: bold;
+    }
+    text-transform: capitalize;
+    color: $Paraground;
+    background-color: $Fontground;
+    padding: .3rem .4rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid $Fontground;
+
+    // Responsive
+    @media screen and (max-width: 760px) {
+      visibility: visible;
+    }
+}
+
+$showHover: selector-nest(".show", "&:hover");
+#{$showHover} {
+    background-color: $Paraground;
+    color: $Fontground;
+}
