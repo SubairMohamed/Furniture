@@ -88,9 +88,9 @@ h4.title-header {
   h4.title-header {
     font-size: 3rem;
     position: absolute;
-    top: 40%;
-    left: 55%;
-    transform: translate(-40%, -55%);
+    top: 36%;
+    left: 46%;
+    transform: translate(-36%, -46%);
   }
 }
 
