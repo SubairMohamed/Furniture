@@ -89,6 +89,11 @@ h4.title-header {
     font-size: 3rem;
   }
 }
+@media screen and (max-width: 759px) {
+  h4.title-header {
+    line-height: 10px;
+  }
+}
 
 p.para-header {
   font-size: 2rem;
