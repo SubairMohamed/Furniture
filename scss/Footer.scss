@@ -151,6 +151,11 @@ $theme-hover: selector-nest(".theme", "&:hover");
 $term: selector-unify("p", ".term");
 #{$term} {
   @include fonts;
+
+    // Responsive
+    @media screen and (max-width: 900px) {
+        margin-bottom: 2rem;
+    }
 }
 
 $img-footer: selector-unify("img", ".img-footer");
