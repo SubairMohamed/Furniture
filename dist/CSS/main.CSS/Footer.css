@@ -95,6 +95,11 @@ p.para-copy {
   line-height: 24px;
   width: 25%;
 }
+@media screen and (max-width: 900px) {
+  p.para-copy {
+    width: 100%;
+  }
+}
 
 a.theme {
   font-size: 2rem;
@@ -116,6 +121,11 @@ p.term {
 
 img.img-footer {
   width: 8%;
+}
+@media screen and (max-width: 900px) {
+  img.img-footer {
+    visibility: hidden;
+  }
 }
 
 a.term-1 {

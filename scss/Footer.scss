@@ -112,6 +112,11 @@ $para-copy: selector-unify("p", ".para-copy");
     color: $Paraground;
     line-height: 24px;
     width: 25%;  
+
+    // Responsive 
+    @media screen and (max-width: 900px) {
+        width: 100%;  
+    }
 }
 
 @mixin paragraphy-copys {
@@ -147,6 +152,11 @@ $term: selector-unify("p", ".term");
 $img-footer: selector-unify("img", ".img-footer");
 #{$img-footer} {
     width: 8%;
+    
+    // Responsive 
+    @media screen and (max-width: 900px) {
+        visibility: hidden;
+    }
 }
 
 $term-1: selector-unify("a", ".term-1");
