@@ -473,6 +473,13 @@ div.copy-right {
   align-items: center;
   justify-content: space-evenly;
 }
+@media screen and (max-width: 900px) {
+  div.copy-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
 
 p.para-copy {
   font-size: 2rem;

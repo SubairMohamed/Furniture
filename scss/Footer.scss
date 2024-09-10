@@ -96,6 +96,13 @@ $copyRight: selector-unify("div", ".copy-right");
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+
+    // Responsive 
+    @media screen and (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 $para-copy: selector-unify("p", ".para-copy");
