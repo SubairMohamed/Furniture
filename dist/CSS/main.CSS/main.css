@@ -490,7 +490,8 @@ p.para-copy {
 }
 @media screen and (max-width: 900px) {
   p.para-copy {
-    width: 100%;
+    width: 90%;
+    line-height: 5px;
   }
 }
 
