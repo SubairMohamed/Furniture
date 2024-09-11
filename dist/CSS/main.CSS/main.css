@@ -521,6 +521,11 @@ a.theme {
   width: 25%;
   text-decoration: none;
 }
+@media screen and (max-width: 900px) {
+  a.theme {
+    font-size: 1rem;
+  }
+}
 
 .theme:hover {
   color: #0C0C0C;
