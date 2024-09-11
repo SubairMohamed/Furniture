@@ -44,6 +44,11 @@ $title-wood: selector-unify("h1", ".title-wood");
     font-weight: bolder;
     color: $Paraground;
     text-align: center;
+
+    // Responsive 
+    @media screen and (max-width: 900px) {
+        font-size: 3rem;
+    }
 }
 
 $para-wood: selector-unify("p", ".para-wood");
