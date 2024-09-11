@@ -132,6 +132,13 @@ p.term {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
 }
+@media screen and (max-width: 900px) {
+  p.term {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
 img.img-footer {
   width: 100px;
 }

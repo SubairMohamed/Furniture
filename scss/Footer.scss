@@ -162,10 +162,11 @@ $term: selector-unify("p", ".term");
 #{$term} {
   @include fonts;
 
-    // Responsive
-    @media screen and (max-width: 900px) {
-        // padding-bottom: .5rem;
-    }
+    // Responsive 
+    @media screen and (max-width: 900px) {  
+        font-size: 1.2rem;
+        text-align: center;
+     }
 }
 
 $img-footer: selector-unify("img", ".img-footer");
