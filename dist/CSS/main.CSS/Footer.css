@@ -13,6 +13,13 @@ div.footer-container {
   padding: 1rem 0.5rem;
   margin: auto;
 }
+@media screen and (max-width: 950px) {
+  .footer-container .footer-container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 div.div-title-footer {
   max-width: 200px;
