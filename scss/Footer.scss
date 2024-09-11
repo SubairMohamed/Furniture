@@ -139,6 +139,11 @@ $theme: selector-unify("a", ".theme");
 #{$theme} {
     @include paragraphy-copys;
     text-decoration: none;
+
+     // Responsive 
+     @media screen and (max-width: 900px) {  
+        font-size: 1rem;
+     }
 }
 
 $theme-hover: selector-nest(".theme", "&:hover");
