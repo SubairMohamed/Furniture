@@ -534,12 +534,6 @@ p.term {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
 }
-@media screen and (max-width: 900px) {
-  p.term {
-    padding-bottom: 0.5rem;
-  }
-}
-
 img.img-footer {
   width: 100px;
 }
