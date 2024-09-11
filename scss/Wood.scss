@@ -56,9 +56,16 @@ $para-wood: selector-unify("p", ".para-wood");
     font-size: 2.6rem;
     font-weight: bolder;
     color: $Paraground;
+    // background: $Paraground;
     text-align: center;
     margin: 0 auto;
-    width: 50%; 
+    max-width: 400px; 
+
+    // Responsive 
+    @media screen and (max-width: 900px) {
+        font-size: 1.9rem;
+        max-width: 400px;
+    }
 }
 
 // Ends Wood

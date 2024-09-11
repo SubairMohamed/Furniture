@@ -47,5 +47,11 @@ p.para-wood {
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
-  width: 50%;
+  max-width: 400px;
+}
+@media screen and (max-width: 900px) {
+  p.para-wood {
+    font-size: 1.9rem;
+    max-width: 400px;
+  }
 }/*# sourceMappingURL=Wood.css.map */
