@@ -509,11 +509,7 @@ p.para-copy {
 }
 @media screen and (max-width: 900px) {
   p.para-copy {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-size: 1rem;
   }
 }
 

@@ -122,12 +122,8 @@ $para-copy: selector-unify("p", ".para-copy");
     width: 350px;  
 
     // Responsive 
-    @media screen and (max-width: 900px) {
-        width: 90%;  
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    @media screen and (max-width: 900px) {  
+       font-size: 1rem;
     }
 }
 
