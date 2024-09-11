@@ -124,6 +124,7 @@ $para-copy: selector-unify("p", ".para-copy");
     // Responsive 
     @media screen and (max-width: 900px) {  
        font-size: 1.2rem;
+       text-align: center;
     }
 }
 

@@ -509,7 +509,8 @@ p.para-copy {
 }
 @media screen and (max-width: 900px) {
   p.para-copy {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
 }
 
@@ -523,7 +524,7 @@ a.theme {
 }
 @media screen and (max-width: 900px) {
   a.theme {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
