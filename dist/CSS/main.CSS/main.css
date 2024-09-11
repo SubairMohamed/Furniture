@@ -450,6 +450,12 @@ p.para-footer {
   color: #ffffff;
   padding-left: 1rem;
 }
+@media screen and (max-width: 950px) {
+  .social-icons-footer .footer-icon {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .social-icons-footer .footer-icon:hover {
   color: #FFAF00;
