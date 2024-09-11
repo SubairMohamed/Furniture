@@ -119,7 +119,7 @@ $para-copy: selector-unify("p", ".para-copy");
     font-family: "Poppins", sans-serif;
     color: $Paraground;
     line-height: 24px;
-    width: 25%;  
+    width: 350px;  
 
     // Responsive 
     @media screen and (max-width: 900px) {
@@ -162,18 +162,13 @@ $term: selector-unify("p", ".term");
 
     // Responsive
     @media screen and (max-width: 900px) {
-        margin-bottom: 2rem;
+        padding-bottom: .5rem;
     }
 }
 
 $img-footer: selector-unify("img", ".img-footer");
 #{$img-footer} {
-    width: 8%;
-    
-    // Responsive 
-    @media screen and (max-width: 900px) {
-        visibility: hidden;
-    }
+    width: 100px;
 }
 
 $term-1: selector-unify("a", ".term-1");

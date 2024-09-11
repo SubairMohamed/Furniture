@@ -418,13 +418,6 @@ div.footer-container {
   margin: auto;
 }
 
-div.sub-footer-container-responsive {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 div.div-title-footer {
   max-width: 200px;
   line-height: 40px;
@@ -512,7 +505,7 @@ p.para-copy {
   font-family: "Poppins", sans-serif;
   color: #ffffff;
   line-height: 24px;
-  width: 25%;
+  width: 350px;
 }
 @media screen and (max-width: 900px) {
   p.para-copy {
@@ -543,17 +536,12 @@ p.term {
 }
 @media screen and (max-width: 900px) {
   p.term {
-    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
   }
 }
 
 img.img-footer {
-  width: 8%;
-}
-@media screen and (max-width: 900px) {
-  img.img-footer {
-    visibility: hidden;
-  }
+  width: 100px;
 }
 
 a.term-1 {
