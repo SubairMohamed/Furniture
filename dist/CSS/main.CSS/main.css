@@ -454,6 +454,8 @@ p.para-footer {
   .social-icons-footer .footer-icon {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 1rem;
   }
 }
 
