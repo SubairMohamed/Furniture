@@ -23,7 +23,7 @@ $footerContainerContent: selector-nest(".footer-container", ".footer-container-c
 
 $div-title-footer: selector-unify("div", ".div-title-footer");
 #{$div-title-footer} {
-   max-width: 14%;
+   max-width: 200px;
    line-height: 40px;
 }
 
