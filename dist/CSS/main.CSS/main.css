@@ -458,7 +458,16 @@ p.para-footer {
 .social-icons-footer .footer-icon {
   font-size: 2.5rem;
   color: #ffffff;
-  padding-left: 1rem;
+}
+@media screen and (max-width: 950px) {
+  .social-icons-footer .footer-icon {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
 }
 
 .social-icons-footer .footer-icon:hover {

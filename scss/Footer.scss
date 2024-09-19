@@ -66,15 +66,16 @@ $social-icons-footer: selector-nest(".social-icons-footer", ".footer-icon");
 #{$social-icons-footer} {
     font-size: 2.5rem;
     color: $Paraground;
-    padding-left: 1rem;
 
-    // // Responsive
-    // @media screen and (max-width: 950px) {
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     margin-bottom: 1rem;
-    // }
+    // Responsive
+    @media screen and (max-width: 950px) {
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
 }
 
 $social-icons-footer-hover: selector-nest(".social-icons-footer", ".footer-icon", "&:hover");
