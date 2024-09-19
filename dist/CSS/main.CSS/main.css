@@ -460,14 +460,6 @@ p.para-footer {
   color: #ffffff;
   padding-left: 1rem;
 }
-@media screen and (max-width: 950px) {
-  .social-icons-footer .footer-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-}
 
 .social-icons-footer .footer-icon:hover {
   color: #FFAF00;
@@ -475,6 +467,12 @@ p.para-footer {
 
 .nav-footer {
   margin-left: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .nav-footer {
+    position: absolute;
+    left: 50px;
+  }
 }
 .nav-footer .list-footer {
   list-style: none;
