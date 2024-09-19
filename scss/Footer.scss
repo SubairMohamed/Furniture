@@ -47,6 +47,11 @@ $div-para: selector-unify("div", ".div-para");
     height: 30vh;
     border-left: 1px solid $Fontground;
     border-right: 1px solid $Fontground;
+
+     // Responsive 
+     @media screen and (max-width: 1000px) {
+        visibility: hidden;
+    }
 }
 
 $para-footer: selector-unify("p", ".para-footer");

@@ -442,6 +442,11 @@ div.div-para {
   border-left: 1px solid #FFAF00;
   border-right: 1px solid #FFAF00;
 }
+@media screen and (max-width: 1000px) {
+  div.div-para {
+    visibility: hidden;
+  }
+}
 
 p.para-footer {
   font-size: 1.8rem;
