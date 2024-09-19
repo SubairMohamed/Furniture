@@ -25,6 +25,11 @@ $div-title-footer: selector-unify("div", ".div-title-footer");
 #{$div-title-footer} {
    max-width: 200px;
    line-height: 40px;
+
+    // Responsive 
+    @media screen and (max-width: 1000px) {
+        visibility: hidden;
+    }
 }
 
 $title-footer: selector-unify("h3", ".title-footer");

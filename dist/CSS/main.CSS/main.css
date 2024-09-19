@@ -422,6 +422,11 @@ div.div-title-footer {
   max-width: 200px;
   line-height: 40px;
 }
+@media screen and (max-width: 1000px) {
+  div.div-title-footer {
+    visibility: hidden;
+  }
+}
 
 h3.title-footer {
   font-size: 3.5rem;
